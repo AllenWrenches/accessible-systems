@@ -1,0 +1,11 @@
+{
+  "title": "Accessible Systems, Inc",
+  "url": "http://accessible-systems.com",
+  "baseurl": "",
+  "repo": "https://github.com/AllenWrenches/accessible-systems",
+  "comments": false,
+  "author": {
+    "name": "Matt Alleb"
+  },
+  "og_locale": "en_US"
+}
