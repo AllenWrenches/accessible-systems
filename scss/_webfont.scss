@@ -1,0 +1,12 @@
+// stylelint-disable plugin/no-unsupported-browser-features, sh-waqar/declaration-use-variable
+
+@font-face {
+  font-weight: 400;
+  font-family: "Cooper Hewitt";
+  font-style: normal;
+  font-stretch: normal;
+  src: local("Cooper Hewitt"), local("CooperHewitt-Medium"),
+    url("/fonts/CooperHewitt-Medium.otf") format("otf");
+  font-display: optional;
+}
+// stylelint-enable

@@ -9,7 +9,7 @@
     "css": "npm run prettier:scss && npm run stylelint && npm run scss && npm run autoprefixer",
     "prettier:scss": "prettier --write \"**/*.scss\"",
     "stylelint": "stylelint \"scss/**/*.scss\" --fix",
-    "scss": "node-sass --output-style compressed -o _includes scss",
+    "scss": "node-sass --output-style verbose -o _includes scss",
     "autoprefixer": "postcss --no-map -u autoprefixer -r \"_includes/*.css\"",
     "html": "npx @11ty/eleventy",
     "lint": "npm run constyble && npm run content && npm run htmllint && npm run pa11y",

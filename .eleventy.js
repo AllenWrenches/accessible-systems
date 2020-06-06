@@ -19,11 +19,11 @@ module.exports = function (eleventyConfig) {
 
   eleventyConfig.addPlugin(eleventyNavigationPlugin);
 
-  eleventyConfig.addFilter("cssmin", function (code) {
-    return new cleanCSS({}).minify(code).styles;
-  });
+  // eleventyConfig.addFilter("cssmin", function (code) {
+  //   return new cleanCSS({}).minify(code).styles;
+  // });
 
-  eleventyConfig.addTransform("htmlmin", htmlMinTransform);
+  // eleventyConfig.addTransform("htmlmin", htmlMinTransform);
 
   return {
     dir: {

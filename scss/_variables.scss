@@ -1,0 +1,46 @@
+$small: 30em; // 480px
+$small-medium: 37.5em; // 600px
+$medium: 48em; // 768px
+$large: 64em; // 1024px
+
+$black: #222;
+$black-print: #000;
+$gray: #666;
+$gray-dark: #4b4b4b;
+$gray-light: #727272;
+$gray-accent: #ddd;
+$gray-barely: #f9f9f9;
+$purple-accent: #eef;
+$white: #fff;
+$blue: #162ade;
+$blue-dark: #092e6e;
+$blue-light: #39cccc;
+$blue-lighter: #b3ebeb;
+$purple: #6e16de;
+$yellow: #ffdd00;
+$transparent: transparent;
+
+$font-family: "Cooper Hewitt", "Source Serif Pro", serif;
+$font-family-mono: "Source Code Pro", Courier, monospace, monospace;
+
+:root {
+  --background: #{$gray-barely};
+  --background-accent: #{$gray-accent};
+  --text: #{$black};
+  --text-accent: #{$gray-dark};
+  --link: #{$blue};
+  --link-visited: #{$blue};
+  --link-hover: #{$blue-dark};
+}
+
+// @media (prefers-color-scheme: dark) {
+//   :root {
+//     --background: #{$black};
+//     --background-accent: #{$gray-dark};
+//     --text: #{$gray-barely};
+//     --text-accent: #{$gray-accent};
+//     --link: #{$blue-light};
+//     --link-visited: #{$blue-light};
+//     --link-hover: #{$blue-lighter};
+//   }
+// }
