@@ -16,6 +16,7 @@ module.exports = function (eleventyConfig) {
   // eleventyConfig.addPassthroughCopy("manifest.json");
   eleventyConfig.addPassthroughCopy("apple-touch-icon.png");
   eleventyConfig.addPassthroughCopy(".htaccess");
+  eleventyConfig.addPassthroughCopy("CNAME");
 
   eleventyConfig.addPlugin(eleventyNavigationPlugin);
 
