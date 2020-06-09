@@ -1,6 +1,17 @@
 ---
 ---
 {% include "header.njk" %}
+  <aside>
+    {{ icon | safe }}
+    <nav  class="subnav">
+      <ul>
+        {% for Training in collections.Training %}
+
+        <li><a href="#{{Training.data.title | urlize | safe }}">{{Training.data.title}}</a></li>
+        {% endfor %}
+      </ul>
+    </nav>
+  </aside>
   <main class="post">
     <a id="content"></a>
     <h1>{{ title | capitalize }}</h1>
