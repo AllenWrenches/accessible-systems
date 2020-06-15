@@ -17,14 +17,15 @@ $blue-dark: #092e6e;
 $blue-light: #39cccc;
 $blue-lighter: #b3ebeb;
 $purple: #6e16de;
-$yellow: #ffdd00;
+$purple-dark: #0d0d37;
+$yellow: #ffba11;
 $transparent: transparent;
 
 $font-family: "Cooper Hewitt", "Source Serif Pro", serif;
 $font-family-mono: "Source Code Pro", Courier, monospace, monospace;
 
 :root {
-  --background: #{$gray-barely};
+  --background: #{$white};
   --background-accent: #{$gray-accent};
   --text: #{$black};
   --text-accent: #{$gray-dark};

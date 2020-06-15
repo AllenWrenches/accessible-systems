@@ -1,20 +1,19 @@
----
----
 {% include "header.njk" %}
-  <aside>
-    {{ icon | safe }}
-    <nav  class="subnav">
-      <ul>
-        {% for Training in collections.Training %}
-
-        <li><a href="#{{Training.data.title | urlize | safe }}">{{Training.data.title}}</a></li>
-        {% endfor %}
-      </ul>
-    </nav>
-  </aside>
-  <main class="post">
-    <a id="content"></a>
-    <h1>{{ title | capitalize }}</h1>
-    {{ content | safe }}
-  </main>
+  <div class="page-wrap">
+    <div class="inside">
+      <div class="breadcrumbs">
+        <p><a href="/">Home</a> > <strong>{{title}}</strong></p>
+      </div>
+      <div class="content-wrapper">
+        {% block pageNav %}
+          Sidebar pending
+        {% endblock %}
+        <main class="post" id="content">
+          <a id="content"></a>
+          <h1>{{ title | capitalize }}</h1>
+          {{ content | safe }}
+        </main>
+      </div>
+    </div>
+  </div>
 {% include "footer.njk" %}

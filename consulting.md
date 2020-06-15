@@ -8,6 +8,4 @@ eleventyNavigation:
   key: Consulting
 ---
 
-So this is just some content, but what about an image?
-<img src="training.svg">
-And some more content
+Content Pending

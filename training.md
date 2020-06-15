@@ -1,5 +1,5 @@
 ---
-layout: page.njk
+layout: training.njk
 title: Training
 tags: homepage-teaser
 teaser: At Accessible Systems, Inc., we believe that proper training is key to ensuring accessibility and vital to the implementation of a successful Section 508 strategy.
@@ -10,11 +10,13 @@ eleventyNavigation:
 
 At Accessible Systems, Inc., we believe that proper training is key to ensuring accessibility and vital to the implementation of a successful Section 508 strategy. Our staff of industry experts has an in-depth knowledge of Section 508 requirements and a clear understanding of the needs of people with disabilities.
 
-{% for Training in collections.Training reversed %}
+{% for Training in collections.Training %}
 
-<div class="content {{ Training.data.title | lower }}" id="{{ Training.data.title | urlize | lower }}">
+<section class="content {{ Training.data.anchor | lower }}" id="{{ Training.data.anchor | urlize | lower }}">
   {{Training.data.icon}}
-  <h2>{{Training.data.title}}</h2>
-  <p>{{ Training.templateContent | safe }}</p>
-</div>
+  <div>
+    <h2>{{Training.data.title}}</h2>
+    <p>{{ Training.templateContent | safe }}</p>
+  </div>
+</section>
 {% endfor %}

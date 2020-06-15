@@ -2,9 +2,12 @@
 ---
 {% include 'header.njk' %}
 <main class="home" id="content">
-  {{ content | safe }}
-    {% include 'contact.njk' %}
+  <div class="inside">
+    {{ content | safe }}
+      {% include 'contact.njk' %}
+    </div>
   </div>
 </main>
+{% include 'footer.njk' %}
 </body>
 </html>

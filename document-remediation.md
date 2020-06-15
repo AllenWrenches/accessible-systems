@@ -5,6 +5,4 @@ eleventyNavigation:
   key: Document Remediation
 ---
 
-# Document Remediation
-
-I would expect this content to show up in a paragraph below
+content pending

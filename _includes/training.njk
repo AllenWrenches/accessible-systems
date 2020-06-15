@@ -1,0 +1,16 @@
+{% extends "_includes/page.njk" %}
+
+{% block pageNav %}
+<aside>
+  {{ icon | safe }}
+  <p>On this page</p>
+  <nav  class="subnav">
+    <ul>
+      {% for Training in collections.Training %}
+
+      <li><a href="#{{Training.data.anchor | urlize | safe }}">{{Training.data.shortTitle}}</a></li>
+      {% endfor %}
+    </ul>
+  </nav>
+</aside>
+{% endblock %}

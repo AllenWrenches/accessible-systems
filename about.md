@@ -5,6 +5,4 @@ eleventyNavigation:
   key: About
 ---
 
-# About Accessible Systems, Inc.
-
-I would expect this content to show up in a paragraph below
+Content Pending
