@@ -14,7 +14,7 @@ This is modified version of Ethan Marcotte's service worker, which is a (very, v
 
   const offlinePages = ["/"];
   const staticAssets = [
-    "/fonts/CooperHewitt-Book.otf",
+    "/fonts/cooper-hewitt/cooperhewitt-book-webfont.woff2",
     "/img/logo.svg",
     "/img/logo-text.svg",
     "/apple-touch-icon.png",

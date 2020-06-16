@@ -37,8 +37,8 @@ footer,
       }
     }
     .icon-logo {
-      width: 1.667rem;
-      height: 1.6112rem;
+      width: 2rem;
+      height: 2rem;
       margin: 0 0.2917rem 0 0;
     }
     nav,
@@ -185,8 +185,8 @@ footer,
 .homepage-hero {
   p {
     color: $gray-dark;
-    font-weight: 900;
     font-size: 1.75rem;
+    font-family: $font-family-bold;
   }
 }
 
@@ -316,6 +316,15 @@ hr {
     font-size: 1.125rem;
     line-height: 1.75rem;
   }
+}
+
+.homepage-grid-bottom {
+  display: grid;
+  grid-column-gap: 5.6875rem;
+  grid-template-columns:
+    [full-start] minmax(0, 1fr)
+    minmax(0, 1fr) [full-end];
+  margin-bottom: 8rem;
 }
 
 .card {

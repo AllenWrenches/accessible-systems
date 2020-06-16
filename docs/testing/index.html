@@ -2,12 +2,12 @@
 <html lang="en-us">
   <head>
     <meta charset="UTF-8">
-    <title>Testing &ndash; Accessible Systems</title>
+    <title>Accessibility testing &ndash; Accessible Systems</title>
     <meta name="author" content="Accessible Systems">
     <meta name="description" content="Accessible Systems website">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="google-site-verification" content="VSNNkE6DbJkLYdmhEb-AvccU_RZckm-s3x80VdYXsQk">
-    <link rel="preload" href="/fonts/cooper-hewitt/CooperHewitt-Medium.otf" as="font" type="font/otf" crossorigin>
+    <link rel="preload" href="/fonts/cooper-hewitt/cooperhewitt-book-webfont.woff2" as="font" type="font/woff2" crossorigin>
     <meta name="theme-color" content="#727272">
     <link rel="icon" href="/favicon.ico">
     <link rel="canonical" href="http://accessible-systems.com/testing/" />
@@ -76,12 +76,64 @@ img {
     padding: 0.5rem 0.75rem; }
 
 @font-face {
-  font-weight: 400;
-  font-family: "Cooper Hewitt";
+  font-family: "cooper_hewittbold";
   font-style: normal;
-  font-stretch: normal;
-  src: local("Cooper Hewitt"), local("CooperHewitt-Medium"), url("/fonts/CooperHewitt-Medium.otf") format("otf");
-  font-display: optional; }
+  src: url("/fonts/cooper-hewitt/cooperhewitt-bold-webfont.woff2") format("woff2"), url("/fonts/cooper-hewitt/cooperhewitt-bold-webfont.woff") format("woff"); }
+
+@font-face {
+  font-family: "cooper_hewittbold_italic";
+  font-style: normal;
+  src: url("/fonts/cooper-hewitt/cooperhewitt-bolditalic-webfont.woff2") format("woff2"), url("/fonts/cooper-hewitt/cooperhewitt-bolditalic-webfont.woff") format("woff"); }
+
+@font-face {
+  font-family: "cooper_hewittbook";
+  font-style: normal;
+  src: url("/fonts/cooper-hewitt/cooperhewitt-book-webfont.woff2") format("woff2"), url("/fonts/cooper-hewitt/cooperhewitt-book-webfont.woff") format("woff"); }
+
+@font-face {
+  font-family: "cooper_hewittbook_italic";
+  font-style: normal;
+  src: url("/fonts/cooper-hewitt/cooperhewitt-bookitalic-webfont.woff2") format("woff2"), url("/fonts/cooper-hewitt/cooperhewitt-bookitalic-webfont.woff") format("woff"); }
+
+@font-face {
+  font-family: "cooper_hewittheavy";
+  font-style: normal;
+  src: url("/fonts/cooper-hewitt/cooperhewitt-heavy-webfont.woff2") format("woff2"), url("/fonts/cooper-hewitt/cooperhewitt-heavy-webfont.woff") format("woff"); }
+
+@font-face {
+  font-family: "cooper_hewittheavy_italic";
+  font-style: normal;
+  src: url("/fonts/cooper-hewitt/cooperhewitt-heavyitalic-webfont.woff2") format("woff2"), url("/fonts/cooper-hewitt/cooperhewitt-heavyitalic-webfont.woff") format("woff"); }
+
+@font-face {
+  font-family: "cooper_hewittlight";
+  font-style: normal;
+  src: url("/fonts/cooper-hewitt/cooperhewitt-light-webfont.woff2") format("woff2"), url("/fonts/cooper-hewitt/cooperhewitt-light-webfont.woff") format("woff"); }
+
+@font-face {
+  font-family: "cooper_hewittlight_italic";
+  font-style: normal;
+  src: url("/fonts/cooper-hewitt/cooperhewitt-lightitalic-webfont.woff2") format("woff2"), url("/fonts/cooper-hewitt/cooperhewitt-lightitalic-webfont.woff") format("woff"); }
+
+@font-face {
+  font-family: "cooper_hewittmedium";
+  font-style: normal;
+  src: url("/fonts/cooper-hewitt/cooperhewitt-medium-webfont.woff2") format("woff2"), url("/fonts/cooper-hewitt/cooperhewitt-medium-webfont.woff") format("woff"); }
+
+@font-face {
+  font-family: "cooper_hewittmedium_italic";
+  font-style: normal;
+  src: url("/fonts/cooper-hewitt/cooperhewitt-mediumitalic-webfont.woff2") format("woff2"), url("/fonts/cooper-hewitt/cooperhewitt-mediumitalic-webfont.woff") format("woff"); }
+
+@font-face {
+  font-family: "cooper_hewittsemibold";
+  font-style: normal;
+  src: url("/fonts/cooper-hewitt/cooperhewitt-semibold-webfont.woff2") format("woff2"), url("/fonts/cooper-hewitt/cooperhewitt-semibold-webfont.woff") format("woff"); }
+
+@font-face {
+  font-family: "cooper_hewittsemibold_italic";
+  font-style: normal;
+  src: url("/fonts/cooper-hewitt/cooperhewitt-semibolditalic-webfont.woff2") format("woff2"), url("/fonts/cooper-hewitt/cooperhewitt-semibolditalic-webfont.woff") format("woff"); }
 
 html {
   font-size: 112.5%; }
@@ -89,7 +141,7 @@ html {
 body {
   color: var(--text);
   font-weight: 400;
-  font-family: "Cooper Hewitt", "Source Serif Pro", serif; }
+  font-family: "cooper_hewittbook", Arial, serif; }
 
 a {
   -webkit-text-decoration-skip: objects;
@@ -229,8 +281,8 @@ footer .inside,
   .header .inside .icon-logo,
   footer .inside .icon-logo,
   .footer .inside .icon-logo {
-    width: 1.667rem;
-    height: 1.6112rem;
+    width: 2rem;
+    height: 2rem;
     margin: 0 0.2917rem 0 0; }
   header .inside nav,
   header .inside .nav,
@@ -395,8 +447,8 @@ footer,
 
 .homepage-hero p {
   color: #4b4b4b;
-  font-weight: 900;
-  font-size: 1.75rem; }
+  font-size: 1.75rem;
+  font-family: "cooper_hewittheavy", Arial, serif; }
 
 .content-wrapper {
   display: grid;
@@ -494,6 +546,12 @@ hr {
     font-size: 1.125rem;
     line-height: 1.75rem; }
 
+.homepage-grid-bottom {
+  display: grid;
+  grid-column-gap: 5.6875rem;
+  grid-template-columns: [full-start] minmax(0, 1fr) minmax(0, 1fr) [full-end];
+  margin-bottom: 8rem; }
+
 .card {
   grid-column: main;
   width: 100%;
@@ -588,12 +646,12 @@ article {
           </a>
         </div>
         <nav>
-<ul><li><a href="/document-remediation/">Document Remediation</a></li>
-<li><a href="/about/">About</a></li>
-<li><a href="/contact/">Contact</a></li>
-<li><a href="/testing/">Testing</a></li>
+<ul><li><a href="/testing/">Accessibility Testing</a></li>
 <li><a href="/consulting/">Consulting</a></li>
-<li><a href="/training/">Training</a></li></ul>
+<li><a href="/training/">Training</a></li>
+<li><a href="/document-remediation/">Document Remediation</a></li>
+<li><a href="/about/">About</a></li>
+<li><a href="/contact/">Contact</a></li></ul>
 </nav>
 
       </div>
@@ -602,7 +660,7 @@ article {
   <div class="page-wrap">
     <div class="inside">
       <div class="breadcrumbs">
-        <p><a href="/">Home</a> > <strong>Testing</strong></p>
+        <p><a href="/">Home</a> > <strong>Accessibility Testing</strong></p>
       </div>
       <div class="content-wrapper">
         
@@ -610,7 +668,7 @@ article {
         
         <main class="post" id="content">
           <a id="content"></a>
-          <h1>Testing</h1>
+          <h1>Accessibility testing</h1>
           <p>Content pending</p>
 
         </main>
@@ -621,12 +679,12 @@ article {
       <div class="inside">
         <div class="logo">
           <a href="/">
-            <svg class="icon-logo" fill="none" height="29" viewBox="0 0 30 29" width="30" xmlns="http://www.w3.org/2000/svg"><path class="background" d="m15 28.3235c8.2843 0 15-6.3404 15-14.1618 0-7.82127-6.7157-14.1617-15-14.1617-8.28427 0-15 6.34043-15 14.1617 0 7.8214 6.71573 14.1618 15 14.1618z" fill="#6e16de"/><path class="text" d="m18.7661 16.5387c-2.0499-.1611-2.5194-.6451-2.5194-1.6125 0-.9877.8324-1.552 2.2631-1.552 1.7295 0 2.3056.8062 2.3056 2.0965h2.1134v-.0809c0-2.157-1.2385-3.6281-4.4196-3.6281-.9577 0-1.793.1485-2.4723.4333v-2.8642c0-2.41877-1.0246-4.01149-4.3339-4.01149-3.48004 0-4.33402 1.89465-4.33402 3.58801v.18149h2.02835c0-1.14889.42699-2.15698 2.24157-2.15698 1.7295 0 2.2631.80625 2.2631 2.39897v.16114l-3.1386.46362c-2.0284.28214-3.82199.98774-3.82199 3.30584v.2019c0 1.7131 1.08873 3.0237 3.33089 3.0237 1.8349 0 3.0722-.7045 3.8412-1.6103-.0006.0302-.0024.0599-.0024.0907v.1414c0 1.7335 1.0462 2.6404 4.1418 2.9027 1.9002.1414 2.626.484 2.626 1.6527 0 .9877-.7899 1.6527-2.3697 1.6527-1.8577 0-2.4128-.9273-2.4128-1.9354h-2.1134v.0809c0 1.794 1.2809 3.467 4.5262 3.467 2.9679 0 4.5478-1.3304 4.5478-3.3059v-.121c.0005-2.0563-1.4511-2.7619-4.2909-2.9638zm-4.8635-3.1365c-.3845.5445-1.2594 1.3909-2.9464 1.3909-1.34508 0-1.90023-.7661-1.90023-1.5724v-.1611c0-1.0081.70486-1.6125 2.02833-1.8144l2.8183-.4432z" fill="#fff"/><path class="dot" d="m16.0934 17.9895h-.2097-1.8996v1.0747h2.1093z" fill="#ffba11"/><path class="separator" d="m18.7282 21.0804h-.367v1.9238h.367z" fill="#6e16de"/></svg>
+            <svg class="icon-logo" fill="none" height="29" viewBox="0 0 30 29" width="30" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Accessible Systems"><path class="background" d="m15 28.3235c8.2843 0 15-6.3404 15-14.1618 0-7.82127-6.7157-14.1617-15-14.1617-8.28427 0-15 6.34043-15 14.1617 0 7.8214 6.71573 14.1618 15 14.1618z" fill="#6e16de"/><path class="text" d="m18.7661 16.5387c-2.0499-.1611-2.5194-.6451-2.5194-1.6125 0-.9877.8324-1.552 2.2631-1.552 1.7295 0 2.3056.8062 2.3056 2.0965h2.1134v-.0809c0-2.157-1.2385-3.6281-4.4196-3.6281-.9577 0-1.793.1485-2.4723.4333v-2.8642c0-2.41877-1.0246-4.01149-4.3339-4.01149-3.48004 0-4.33402 1.89465-4.33402 3.58801v.18149h2.02835c0-1.14889.42699-2.15698 2.24157-2.15698 1.7295 0 2.2631.80625 2.2631 2.39897v.16114l-3.1386.46362c-2.0284.28214-3.82199.98774-3.82199 3.30584v.2019c0 1.7131 1.08873 3.0237 3.33089 3.0237 1.8349 0 3.0722-.7045 3.8412-1.6103-.0006.0302-.0024.0599-.0024.0907v.1414c0 1.7335 1.0462 2.6404 4.1418 2.9027 1.9002.1414 2.626.484 2.626 1.6527 0 .9877-.7899 1.6527-2.3697 1.6527-1.8577 0-2.4128-.9273-2.4128-1.9354h-2.1134v.0809c0 1.794 1.2809 3.467 4.5262 3.467 2.9679 0 4.5478-1.3304 4.5478-3.3059v-.121c.0005-2.0563-1.4511-2.7619-4.2909-2.9638zm-4.8635-3.1365c-.3845.5445-1.2594 1.3909-2.9464 1.3909-1.34508 0-1.90023-.7661-1.90023-1.5724v-.1611c0-1.0081.70486-1.6125 2.02833-1.8144l2.8183-.4432z" fill="#fff"/><path class="dot" d="m16.0934 17.9895h-.2097-1.8996v1.0747h2.1093z" fill="#ffba11"/><path class="separator" d="m18.7282 21.0804h-.367v1.9238h.367z" fill="#6e16de"/></svg>
           </a>
           <p>3011 Grotto Walk<br />
             Ellicott City, Maryland 21042</p>
         </div>
-        <nav>
+        <nav aria-label="Footer nav">
         <ul><li><a href="/privacy/">Privacy Statement</a></li>
 <li><a href="/accessibility/">Accessibility Statement</a></li>
 <li><a href="/tou/">Terms of Use</a></li>

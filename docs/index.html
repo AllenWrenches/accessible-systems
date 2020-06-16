@@ -7,7 +7,7 @@
     <meta name="description" content="Accessible Systems website">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="google-site-verification" content="VSNNkE6DbJkLYdmhEb-AvccU_RZckm-s3x80VdYXsQk">
-    <link rel="preload" href="/fonts/cooper-hewitt/CooperHewitt-Medium.otf" as="font" type="font/otf" crossorigin>
+    <link rel="preload" href="/fonts/cooper-hewitt/cooperhewitt-book-webfont.woff2" as="font" type="font/woff2" crossorigin>
     <meta name="theme-color" content="#727272">
     <link rel="icon" href="/favicon.ico">
     <link rel="canonical" href="http://accessible-systems.com/" />
@@ -76,12 +76,64 @@ img {
     padding: 0.5rem 0.75rem; }
 
 @font-face {
-  font-weight: 400;
-  font-family: "Cooper Hewitt";
+  font-family: "cooper_hewittbold";
   font-style: normal;
-  font-stretch: normal;
-  src: local("Cooper Hewitt"), local("CooperHewitt-Medium"), url("/fonts/CooperHewitt-Medium.otf") format("otf");
-  font-display: optional; }
+  src: url("/fonts/cooper-hewitt/cooperhewitt-bold-webfont.woff2") format("woff2"), url("/fonts/cooper-hewitt/cooperhewitt-bold-webfont.woff") format("woff"); }
+
+@font-face {
+  font-family: "cooper_hewittbold_italic";
+  font-style: normal;
+  src: url("/fonts/cooper-hewitt/cooperhewitt-bolditalic-webfont.woff2") format("woff2"), url("/fonts/cooper-hewitt/cooperhewitt-bolditalic-webfont.woff") format("woff"); }
+
+@font-face {
+  font-family: "cooper_hewittbook";
+  font-style: normal;
+  src: url("/fonts/cooper-hewitt/cooperhewitt-book-webfont.woff2") format("woff2"), url("/fonts/cooper-hewitt/cooperhewitt-book-webfont.woff") format("woff"); }
+
+@font-face {
+  font-family: "cooper_hewittbook_italic";
+  font-style: normal;
+  src: url("/fonts/cooper-hewitt/cooperhewitt-bookitalic-webfont.woff2") format("woff2"), url("/fonts/cooper-hewitt/cooperhewitt-bookitalic-webfont.woff") format("woff"); }
+
+@font-face {
+  font-family: "cooper_hewittheavy";
+  font-style: normal;
+  src: url("/fonts/cooper-hewitt/cooperhewitt-heavy-webfont.woff2") format("woff2"), url("/fonts/cooper-hewitt/cooperhewitt-heavy-webfont.woff") format("woff"); }
+
+@font-face {
+  font-family: "cooper_hewittheavy_italic";
+  font-style: normal;
+  src: url("/fonts/cooper-hewitt/cooperhewitt-heavyitalic-webfont.woff2") format("woff2"), url("/fonts/cooper-hewitt/cooperhewitt-heavyitalic-webfont.woff") format("woff"); }
+
+@font-face {
+  font-family: "cooper_hewittlight";
+  font-style: normal;
+  src: url("/fonts/cooper-hewitt/cooperhewitt-light-webfont.woff2") format("woff2"), url("/fonts/cooper-hewitt/cooperhewitt-light-webfont.woff") format("woff"); }
+
+@font-face {
+  font-family: "cooper_hewittlight_italic";
+  font-style: normal;
+  src: url("/fonts/cooper-hewitt/cooperhewitt-lightitalic-webfont.woff2") format("woff2"), url("/fonts/cooper-hewitt/cooperhewitt-lightitalic-webfont.woff") format("woff"); }
+
+@font-face {
+  font-family: "cooper_hewittmedium";
+  font-style: normal;
+  src: url("/fonts/cooper-hewitt/cooperhewitt-medium-webfont.woff2") format("woff2"), url("/fonts/cooper-hewitt/cooperhewitt-medium-webfont.woff") format("woff"); }
+
+@font-face {
+  font-family: "cooper_hewittmedium_italic";
+  font-style: normal;
+  src: url("/fonts/cooper-hewitt/cooperhewitt-mediumitalic-webfont.woff2") format("woff2"), url("/fonts/cooper-hewitt/cooperhewitt-mediumitalic-webfont.woff") format("woff"); }
+
+@font-face {
+  font-family: "cooper_hewittsemibold";
+  font-style: normal;
+  src: url("/fonts/cooper-hewitt/cooperhewitt-semibold-webfont.woff2") format("woff2"), url("/fonts/cooper-hewitt/cooperhewitt-semibold-webfont.woff") format("woff"); }
+
+@font-face {
+  font-family: "cooper_hewittsemibold_italic";
+  font-style: normal;
+  src: url("/fonts/cooper-hewitt/cooperhewitt-semibolditalic-webfont.woff2") format("woff2"), url("/fonts/cooper-hewitt/cooperhewitt-semibolditalic-webfont.woff") format("woff"); }
 
 html {
   font-size: 112.5%; }
@@ -89,7 +141,7 @@ html {
 body {
   color: var(--text);
   font-weight: 400;
-  font-family: "Cooper Hewitt", "Source Serif Pro", serif; }
+  font-family: "cooper_hewittbook", Arial, serif; }
 
 a {
   -webkit-text-decoration-skip: objects;
@@ -229,8 +281,8 @@ footer .inside,
   .header .inside .icon-logo,
   footer .inside .icon-logo,
   .footer .inside .icon-logo {
-    width: 1.667rem;
-    height: 1.6112rem;
+    width: 2rem;
+    height: 2rem;
     margin: 0 0.2917rem 0 0; }
   header .inside nav,
   header .inside .nav,
@@ -395,8 +447,8 @@ footer,
 
 .homepage-hero p {
   color: #4b4b4b;
-  font-weight: 900;
-  font-size: 1.75rem; }
+  font-size: 1.75rem;
+  font-family: "cooper_hewittheavy", Arial, serif; }
 
 .content-wrapper {
   display: grid;
@@ -494,6 +546,12 @@ hr {
     font-size: 1.125rem;
     line-height: 1.75rem; }
 
+.homepage-grid-bottom {
+  display: grid;
+  grid-column-gap: 5.6875rem;
+  grid-template-columns: [full-start] minmax(0, 1fr) minmax(0, 1fr) [full-end];
+  margin-bottom: 8rem; }
+
 .card {
   grid-column: main;
   width: 100%;
@@ -588,12 +646,12 @@ article {
           </a>
         </div>
         <nav>
-<ul><li><a href="/document-remediation/">Document Remediation</a></li>
-<li><a href="/about/">About</a></li>
-<li><a href="/contact/">Contact</a></li>
-<li><a href="/testing/">Testing</a></li>
+<ul><li><a href="/testing/">Accessibility Testing</a></li>
 <li><a href="/consulting/">Consulting</a></li>
-<li><a href="/training/">Training</a></li></ul>
+<li><a href="/training/">Training</a></li>
+<li><a href="/document-remediation/">Document Remediation</a></li>
+<li><a href="/about/">About</a></li>
+<li><a href="/contact/">Contact</a></li></ul>
 </nav>
 
       </div>
@@ -610,30 +668,30 @@ article {
   <img src="img/homepage-hero.png" alt="Keyboard with Accessibility button" />
 </div>
 <div class="homepage-row homepage-grid">
-  <div class="homepage-blurb Testing">
+  <div class="homepage-blurb Accessibility Testing">
     <svg viewBox="0 0 175 175" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><clipPath id="a"><circle cx="87.5" cy="87.5" r="87.5"/></clipPath><circle cx="87.5" cy="87.5" fill="#ff6c88" r="87.5"/><g clip-path="url(#a)"><path d="m54.27 130.98 65.01 65.01 81.46-81.45-70.48-70.48-51.07 3.15 12.51 12.51h-12.51l-12.32-12.32-14.85 14.85 14.68 14.69-16.94 16.95 19.21 19.21z" fill="#f6589b" opacity=".5"/></g><g fill="#fff"><path d="m64.79 45-10.52 10.47-4.12-4.12a3.19 3.19 0 0 0 -4.52 4.51l6.37 6.39a3.15 3.15 0 0 0 2.25.94 3.19 3.19 0 0 0 2.27-.94l12.79-12.78a3.2 3.2 0 0 0 -4.52-4.47z"/><path d="m79.19 47.21a3.2 3.2 0 0 0 3.2 3.2h44.72a3.2 3.2 0 1 0 0-6.39h-44.72a3.19 3.19 0 0 0 -3.2 3.19z"/><path d="m82.39 63.19h31.94a3.2 3.2 0 1 0 0-6.39h-31.94a3.2 3.2 0 1 0 0 6.39z"/><path d="m64.79 78.85-10.52 10.52-4.12-4.13a3.2 3.2 0 0 0 -4.52 4.52l6.37 6.39a3.18 3.18 0 0 0 2.25.93 3.23 3.23 0 0 0 2.27-.93l12.79-12.78a3.2 3.2 0 1 0 -4.52-4.52z"/><path d="m79.19 81.11a3.2 3.2 0 0 0 3.2 3.2h44.72a3.2 3.2 0 1 0 0-6.39h-44.72a3.19 3.19 0 0 0 -3.2 3.19z"/><path d="m82.39 97.08h31.94a3.2 3.2 0 1 0 0-6.39h-31.94a3.2 3.2 0 1 0 0 6.39z"/><path d="m64.79 112.75-10.52 10.52-4.12-4.13a3.2 3.2 0 0 0 -4.52 4.52l6.37 6.39a3.18 3.18 0 0 0 2.25.93 3.23 3.23 0 0 0 2.27-.93l12.77-12.78a3.2 3.2 0 1 0 -4.52-4.52z"/><path d="m79.19 115a3.19 3.19 0 0 0 3.2 3.19h44.72a3.2 3.2 0 1 0 0-6.39h-44.72a3.2 3.2 0 0 0 -3.2 3.2z"/><path d="m82.39 131h31.94a3.2 3.2 0 1 0 0-6.39h-31.94a3.2 3.2 0 1 0 0 6.39z"/></g></svg>
-    <h2>Testing</h2>
+    <h2>Accessibility Testing</h2>
     <p>We have proven testing methodologies that not only ensure conformance to the technical standards of Section 508 but also provide usability.</p>
-    <a href="/testing/" class="btn">Testing at ASI</a>
+    <a href="/testing/" class="btn">Accessibility Testing at ASI</a>
   </div>
   <div class="homepage-blurb Consulting">
-    <svg viewBox="0 0 175 175" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><clipPath id="a"><circle cx="87.5" cy="87.5" r="87.5"/></clipPath><circle cx="87.5" cy="87.5" fill="#5ad8ee" r="87.5"/><g clip-path="url(#a)"><path d="m42.8 134.48 65.01 65.01 95.85-87.69-70.47-70.47-38.33 1.33-.23 19.26-5.34-4.68-19.49 2.42-21.42 1.78 1.19 15.91-3.51 39.65 9.81 9.22z" fill="#5ad8ee" opacity=".5"/></g><g fill="#fff"><path d="m78.76 96.33a7 7 0 0 1 -4.51-1.87 12.85 12.85 0 0 1 -3.76-9.59v-1.32a8.82 8.82 0 0 0 2.07-.18h.19a18.38 18.38 0 0 0 7.89-3 9.88 9.88 0 0 0 5.64 2.44h.56c0 .75.19 1.32.19 2.07-.19 6.39-3.76 11.46-8.27 11.46zm4.14 3.2v.75a4.2 4.2 0 0 1 -4 3.38 4.24 4.24 0 0 1 -4.14-3.38v-2.44a8.19 8.19 0 0 0 8.27 0v1.69zm16.54 6a7.26 7.26 0 0 0 -6-5.26v-13a16.22 16.22 0 0 0 -4.34-11.27 11.28 11.28 0 0 0 -1.5-1.51 14.15 14.15 0 0 0 -8.83-3.19 13.41 13.41 0 0 0 -8.84 3.19 16.49 16.49 0 0 0 -5.82 12.78v13a22.13 22.13 0 0 1 -2.26.57 6.81 6.81 0 0 0 -5.07 6.57v.19h43z"/><path d="m123.68 57.62a3.39 3.39 0 1 1 3.38-3.38 3.49 3.49 0 0 1 -3.38 3.38zm-10 0a3.39 3.39 0 1 1 3.38-3.38 3.49 3.49 0 0 1 -3.34 3.38zm-9.78 0a3.39 3.39 0 1 1 3.39-3.38 3.49 3.49 0 0 1 -3.35 3.38zm27.1-17.1h-34.57a3.36 3.36 0 0 0 -3.38 3.38v20.48a3.36 3.36 0 0 0 3.38 3.38h2.07v7.71a2 2 0 0 0 .94 1.69 1.65 1.65 0 0 0 .93.19 2.62 2.62 0 0 0 1.13-.35l12.59-9.21h16.91a3.37 3.37 0 0 0 3.39-3.38v-20.51a3.36 3.36 0 0 0 -3.39-3.38z"/><path d="m128.75 117v-45.66h-7.33v39.84h-68v-45.85h35.9v-8.09h-37.43a5.86 5.86 0 0 0 -5.83 5.83v53.93z"/><path d="m130.26 120.76h-85.7l-3.76 9a2.86 2.86 0 0 0 0 3 3.09 3.09 0 0 0 2.82 1.69h87.76a3.09 3.09 0 0 0 2.82-1.69 2.86 2.86 0 0 0 0-3z"/></g></svg>
+    <svg viewBox="0 0 175 175" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><clipPath id="b"><circle cx="87.5" cy="87.5" r="87.5"/></clipPath><circle cx="87.5" cy="87.5" fill="#5ad8ee" r="87.5"/><g clip-path="url(#b)"><path d="m42.8 134.48 65.01 65.01 95.85-87.69-70.47-70.47-38.33 1.33-.23 19.26-5.34-4.68-19.49 2.42-21.42 1.78 1.19 15.91-3.51 39.65 9.81 9.22z" fill="#5ad8ee" opacity=".5"/></g><g fill="#fff"><path d="m78.76 96.33a7 7 0 0 1 -4.51-1.87 12.85 12.85 0 0 1 -3.76-9.59v-1.32a8.82 8.82 0 0 0 2.07-.18h.19a18.38 18.38 0 0 0 7.89-3 9.88 9.88 0 0 0 5.64 2.44h.56c0 .75.19 1.32.19 2.07-.19 6.39-3.76 11.46-8.27 11.46zm4.14 3.2v.75a4.2 4.2 0 0 1 -4 3.38 4.24 4.24 0 0 1 -4.14-3.38v-2.44a8.19 8.19 0 0 0 8.27 0v1.69zm16.54 6a7.26 7.26 0 0 0 -6-5.26v-13a16.22 16.22 0 0 0 -4.34-11.27 11.28 11.28 0 0 0 -1.5-1.51 14.15 14.15 0 0 0 -8.83-3.19 13.41 13.41 0 0 0 -8.84 3.19 16.49 16.49 0 0 0 -5.82 12.78v13a22.13 22.13 0 0 1 -2.26.57 6.81 6.81 0 0 0 -5.07 6.57v.19h43z"/><path d="m123.68 57.62a3.39 3.39 0 1 1 3.38-3.38 3.49 3.49 0 0 1 -3.38 3.38zm-10 0a3.39 3.39 0 1 1 3.38-3.38 3.49 3.49 0 0 1 -3.34 3.38zm-9.78 0a3.39 3.39 0 1 1 3.39-3.38 3.49 3.49 0 0 1 -3.35 3.38zm27.1-17.1h-34.57a3.36 3.36 0 0 0 -3.38 3.38v20.48a3.36 3.36 0 0 0 3.38 3.38h2.07v7.71a2 2 0 0 0 .94 1.69 1.65 1.65 0 0 0 .93.19 2.62 2.62 0 0 0 1.13-.35l12.59-9.21h16.91a3.37 3.37 0 0 0 3.39-3.38v-20.51a3.36 3.36 0 0 0 -3.39-3.38z"/><path d="m128.75 117v-45.66h-7.33v39.84h-68v-45.85h35.9v-8.09h-37.43a5.86 5.86 0 0 0 -5.83 5.83v53.93z"/><path d="m130.26 120.76h-85.7l-3.76 9a2.86 2.86 0 0 0 0 3 3.09 3.09 0 0 0 2.82 1.69h87.76a3.09 3.09 0 0 0 2.82-1.69 2.86 2.86 0 0 0 0-3z"/></g></svg>
     <h2>Consulting</h2>
     <p>We specialize in providing accessibility consulting services to organizations, helping them integrate accessibility into the fabric of their business.</p>
     <a href="/consulting/" class="btn">Consulting at ASI</a>
   </div>
   <div class="homepage-blurb Training">
-    <svg viewBox="0 0 175 175" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><clipPath id="a"><circle cx="87.5" cy="87.5" r="87.5"/></clipPath><circle cx="87.5" cy="87.5" fill="#74e75b" r="87.5"/><g clip-path="url(#a)"><path d="m51.54 119.42 65.01 65.01 76.95-65.15-70.47-70.48-8.56 8.68-24.86-22.49-1.94 18.23 11.25 9.96-26.58 1.4-15.57-15.68 4.81 13.45 7.1 6.87-4.59 20.28-8.84-7.48-17.48 3.91 25.03 23.29z" fill="#74e75b" opacity=".5"/></g><path d="m53.78 120.33a3.5 3.5 0 0 0 2.16-.83l8.13-8.14a3.05 3.05 0 0 0 -4.32-4.36l-8.13 8.14a3.1 3.1 0 0 0 0 4.32 3.18 3.18 0 0 0 2.16.87zm66.44 0a3.48 3.48 0 0 0 2.16-.83 3.1 3.1 0 0 0 0-4.32l-8-8a3.06 3.06 0 0 0 -4.32 4.33l8 8a5.2 5.2 0 0 0 2.16.82zm-80.06-33.22h13a3 3 0 1 0 0-6h-13a3 3 0 1 0 0 6zm71.6-23.93a3.5 3.5 0 0 0 2.16-.83l9.13-9.13a3.06 3.06 0 0 0 -4.32-4.33l-9.13 9.11a3.1 3.1 0 0 0 0 4.32 3.48 3.48 0 0 0 2.16.86zm-50.18-.83a2.77 2.77 0 0 0 2.16.83 3.53 3.53 0 0 0 2.17-.83 3.12 3.12 0 0 0 0-4.32l-9.14-9.14a3.06 3.06 0 1 0 -4.32 4.33zm57.31 21.93a3 3 0 0 0 3 3h13a3 3 0 1 0 0-6h-13a2.8 2.8 0 0 0 -3 3zm-31.22-31.06a3 3 0 0 0 3-3v-12.95a3 3 0 1 0 -6 0v12.95a3.09 3.09 0 0 0 3 3zm3 41.53 7.33-6.82a3.06 3.06 0 1 0 -4.15-4.49l-6.15 5.82-6.14-5.82a3.06 3.06 0 0 0 -4.16 4.49l7.31 6.82v18.25a3 3 0 1 0 6 0v-18.25zm5.82 41.71a3 3 0 0 0 -3-3h-12.8a3 3 0 0 0 0 6h12.79a3.09 3.09 0 0 0 2.99-3zm-26.93-10.46a3 3 0 0 0 3 3h28.57a3 3 0 1 0 0-6h-28.58a3 3 0 0 0 -2.99 3zm-5.15-54.67a22.1 22.1 0 0 1 9.64-9.47c9.14-4.65 19.1-4.48 27.24.66a26.14 26.14 0 0 1 12.63 22.6 27.11 27.11 0 0 1 -5.16 15.78 23.05 23.05 0 0 0 -4.32 13.29 3 3 0 0 1 -6 0 29.06 29.06 0 0 1 5.48-17 20 20 0 0 0 4-12.12 20.23 20.23 0 0 0 -9.8-17.45c-6.32-3.82-14.12-4-21.43-.33a15.74 15.74 0 0 0 -7 7c-4 7.81-3.66 16.28 1 22.93a28.35 28.35 0 0 1 5.31 16.78 3 3 0 1 1 -6 0 22.91 22.91 0 0 0 -4.15-13.29c-6-8.65-6.65-19.44-1.5-29.41z" fill="#fff"/></svg>
+    <svg viewBox="0 0 175 175" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><clipPath id="c"><circle cx="87.5" cy="87.5" r="87.5"/></clipPath><circle cx="87.5" cy="87.5" fill="#74e75b" r="87.5"/><g clip-path="url(#c)"><path d="m51.54 119.42 65.01 65.01 76.95-65.15-70.47-70.48-8.56 8.68-24.86-22.49-1.94 18.23 11.25 9.96-26.58 1.4-15.57-15.68 4.81 13.45 7.1 6.87-4.59 20.28-8.84-7.48-17.48 3.91 25.03 23.29z" fill="#74e75b" opacity=".5"/></g><path d="m53.78 120.33a3.5 3.5 0 0 0 2.16-.83l8.13-8.14a3.05 3.05 0 0 0 -4.32-4.36l-8.13 8.14a3.1 3.1 0 0 0 0 4.32 3.18 3.18 0 0 0 2.16.87zm66.44 0a3.48 3.48 0 0 0 2.16-.83 3.1 3.1 0 0 0 0-4.32l-8-8a3.06 3.06 0 0 0 -4.32 4.33l8 8a5.2 5.2 0 0 0 2.16.82zm-80.06-33.22h13a3 3 0 1 0 0-6h-13a3 3 0 1 0 0 6zm71.6-23.93a3.5 3.5 0 0 0 2.16-.83l9.13-9.13a3.06 3.06 0 0 0 -4.32-4.33l-9.13 9.11a3.1 3.1 0 0 0 0 4.32 3.48 3.48 0 0 0 2.16.86zm-50.18-.83a2.77 2.77 0 0 0 2.16.83 3.53 3.53 0 0 0 2.17-.83 3.12 3.12 0 0 0 0-4.32l-9.14-9.14a3.06 3.06 0 1 0 -4.32 4.33zm57.31 21.93a3 3 0 0 0 3 3h13a3 3 0 1 0 0-6h-13a2.8 2.8 0 0 0 -3 3zm-31.22-31.06a3 3 0 0 0 3-3v-12.95a3 3 0 1 0 -6 0v12.95a3.09 3.09 0 0 0 3 3zm3 41.53 7.33-6.82a3.06 3.06 0 1 0 -4.15-4.49l-6.15 5.82-6.14-5.82a3.06 3.06 0 0 0 -4.16 4.49l7.31 6.82v18.25a3 3 0 1 0 6 0v-18.25zm5.82 41.71a3 3 0 0 0 -3-3h-12.8a3 3 0 0 0 0 6h12.79a3.09 3.09 0 0 0 2.99-3zm-26.93-10.46a3 3 0 0 0 3 3h28.57a3 3 0 1 0 0-6h-28.58a3 3 0 0 0 -2.99 3zm-5.15-54.67a22.1 22.1 0 0 1 9.64-9.47c9.14-4.65 19.1-4.48 27.24.66a26.14 26.14 0 0 1 12.63 22.6 27.11 27.11 0 0 1 -5.16 15.78 23.05 23.05 0 0 0 -4.32 13.29 3 3 0 0 1 -6 0 29.06 29.06 0 0 1 5.48-17 20 20 0 0 0 4-12.12 20.23 20.23 0 0 0 -9.8-17.45c-6.32-3.82-14.12-4-21.43-.33a15.74 15.74 0 0 0 -7 7c-4 7.81-3.66 16.28 1 22.93a28.35 28.35 0 0 1 5.31 16.78 3 3 0 1 1 -6 0 22.91 22.91 0 0 0 -4.15-13.29c-6-8.65-6.65-19.44-1.5-29.41z" fill="#fff"/></svg>
     <h2>Training</h2>
     <p>At Accessible Systems, Inc., we believe that proper training is key to ensuring accessibility and vital to the implementation of a successful Section 508 strategy.</p>
     <a href="/training/" class="btn">Training at ASI</a>
   </div>
 </div>
-<div class="homepage-row">
+<div class="homepage-row  homepage-grid-bottom">
   <div class="homepage-blurb">
     <h2>We look forward to serving your accessibility needs.</h2>
     <p>For more information, or if you would like an ASI representative to contact you, please take a moment to complete our contact form.</p>
-    <svg viewBox="0 0 175 175" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><clipPath id="a"><circle cx="87.5" cy="87.5" r="87.5"/></clipPath><circle cx="87.5" cy="87.5" fill="#ec3788" r="87.5"/><circle cx="87.5" cy="87.5" fill="none" r="87.5"/><g clip-path="url(#a)"><path d="m42.8 119.45v12.34l65.01 65 93.84-84.21-70.48-70.47-36.31.55-21.31-.55-27.71 1.46z" fill="#ec3788" opacity=".5"/></g><path d="m56.25 113.54v5.21h62v-5.21zm31.25-26h26v10.38h-26zm-31.25 0v5.21h15.62v-5.25zm28.65-5.25a2.61 2.61 0 0 0 -2.61 2.61v15.62a2.6 2.6 0 0 0 2.61 2.6h31.25a2.6 2.6 0 0 0 2.6-2.6v-15.62a2.61 2.61 0 0 0 -2.6-2.61zm2.6-20.83h26v10.41h-26zm-31.25 0v5.21h15.62v-5.21zm28.65-5.21a2.61 2.61 0 0 0 -2.61 2.6v15.63a2.6 2.6 0 0 0 2.61 2.6h31.25a2.6 2.6 0 0 0 2.6-2.6v-15.63a2.61 2.61 0 0 0 -2.6-2.6zm-36.3-10.41h77.8a2.7 2.7 0 0 1 2.76 2.76v77.81a2.7 2.7 0 0 1 -2.76 2.76h-77.8a2.7 2.7 0 0 1 -2.76-2.76v-77.81a2.7 2.7 0 0 1 2.76-2.76zm0-5.22a8 8 0 0 0 -8 8v77.81a8 8 0 0 0 8 8h77.8a8 8 0 0 0 8-8v-77.83a8 8 0 0 0 -8-8z" fill="#fff"/></svg>
+    <svg viewBox="0 0 175 175" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><clipPath id="d"><circle cx="87.5" cy="87.5" r="87.5"/></clipPath><circle cx="87.5" cy="87.5" fill="#ec3788" r="87.5"/><circle cx="87.5" cy="87.5" fill="none" r="87.5"/><g clip-path="url(#d)"><path d="m42.8 119.45v12.34l65.01 65 93.84-84.21-70.48-70.47-36.31.55-21.31-.55-27.71 1.46z" fill="#ec3788" opacity=".5"/></g><path d="m56.25 113.54v5.21h62v-5.21zm31.25-26h26v10.38h-26zm-31.25 0v5.21h15.62v-5.25zm28.65-5.25a2.61 2.61 0 0 0 -2.61 2.61v15.62a2.6 2.6 0 0 0 2.61 2.6h31.25a2.6 2.6 0 0 0 2.6-2.6v-15.62a2.61 2.61 0 0 0 -2.6-2.61zm2.6-20.83h26v10.41h-26zm-31.25 0v5.21h15.62v-5.21zm28.65-5.21a2.61 2.61 0 0 0 -2.61 2.6v15.63a2.6 2.6 0 0 0 2.61 2.6h31.25a2.6 2.6 0 0 0 2.6-2.6v-15.63a2.61 2.61 0 0 0 -2.6-2.6zm-36.3-10.41h77.8a2.7 2.7 0 0 1 2.76 2.76v77.81a2.7 2.7 0 0 1 -2.76 2.76h-77.8a2.7 2.7 0 0 1 -2.76-2.76v-77.81a2.7 2.7 0 0 1 2.76-2.76zm0-5.22a8 8 0 0 0 -8 8v77.81a8 8 0 0 0 8 8h77.8a8 8 0 0 0 8-8v-77.83a8 8 0 0 0 -8-8z" fill="#fff"/></svg>
   </div>
 
       <form id="contact">
@@ -659,12 +717,12 @@ article {
       <div class="inside">
         <div class="logo">
           <a href="/">
-            <svg class="icon-logo" fill="none" height="29" viewBox="0 0 30 29" width="30" xmlns="http://www.w3.org/2000/svg"><path class="background" d="m15 28.3235c8.2843 0 15-6.3404 15-14.1618 0-7.82127-6.7157-14.1617-15-14.1617-8.28427 0-15 6.34043-15 14.1617 0 7.8214 6.71573 14.1618 15 14.1618z" fill="#6e16de"/><path class="text" d="m18.7661 16.5387c-2.0499-.1611-2.5194-.6451-2.5194-1.6125 0-.9877.8324-1.552 2.2631-1.552 1.7295 0 2.3056.8062 2.3056 2.0965h2.1134v-.0809c0-2.157-1.2385-3.6281-4.4196-3.6281-.9577 0-1.793.1485-2.4723.4333v-2.8642c0-2.41877-1.0246-4.01149-4.3339-4.01149-3.48004 0-4.33402 1.89465-4.33402 3.58801v.18149h2.02835c0-1.14889.42699-2.15698 2.24157-2.15698 1.7295 0 2.2631.80625 2.2631 2.39897v.16114l-3.1386.46362c-2.0284.28214-3.82199.98774-3.82199 3.30584v.2019c0 1.7131 1.08873 3.0237 3.33089 3.0237 1.8349 0 3.0722-.7045 3.8412-1.6103-.0006.0302-.0024.0599-.0024.0907v.1414c0 1.7335 1.0462 2.6404 4.1418 2.9027 1.9002.1414 2.626.484 2.626 1.6527 0 .9877-.7899 1.6527-2.3697 1.6527-1.8577 0-2.4128-.9273-2.4128-1.9354h-2.1134v.0809c0 1.794 1.2809 3.467 4.5262 3.467 2.9679 0 4.5478-1.3304 4.5478-3.3059v-.121c.0005-2.0563-1.4511-2.7619-4.2909-2.9638zm-4.8635-3.1365c-.3845.5445-1.2594 1.3909-2.9464 1.3909-1.34508 0-1.90023-.7661-1.90023-1.5724v-.1611c0-1.0081.70486-1.6125 2.02833-1.8144l2.8183-.4432z" fill="#fff"/><path class="dot" d="m16.0934 17.9895h-.2097-1.8996v1.0747h2.1093z" fill="#ffba11"/><path class="separator" d="m18.7282 21.0804h-.367v1.9238h.367z" fill="#6e16de"/></svg>
+            <svg class="icon-logo" fill="none" height="29" viewBox="0 0 30 29" width="30" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Accessible Systems"><path class="background" d="m15 28.3235c8.2843 0 15-6.3404 15-14.1618 0-7.82127-6.7157-14.1617-15-14.1617-8.28427 0-15 6.34043-15 14.1617 0 7.8214 6.71573 14.1618 15 14.1618z" fill="#6e16de"/><path class="text" d="m18.7661 16.5387c-2.0499-.1611-2.5194-.6451-2.5194-1.6125 0-.9877.8324-1.552 2.2631-1.552 1.7295 0 2.3056.8062 2.3056 2.0965h2.1134v-.0809c0-2.157-1.2385-3.6281-4.4196-3.6281-.9577 0-1.793.1485-2.4723.4333v-2.8642c0-2.41877-1.0246-4.01149-4.3339-4.01149-3.48004 0-4.33402 1.89465-4.33402 3.58801v.18149h2.02835c0-1.14889.42699-2.15698 2.24157-2.15698 1.7295 0 2.2631.80625 2.2631 2.39897v.16114l-3.1386.46362c-2.0284.28214-3.82199.98774-3.82199 3.30584v.2019c0 1.7131 1.08873 3.0237 3.33089 3.0237 1.8349 0 3.0722-.7045 3.8412-1.6103-.0006.0302-.0024.0599-.0024.0907v.1414c0 1.7335 1.0462 2.6404 4.1418 2.9027 1.9002.1414 2.626.484 2.626 1.6527 0 .9877-.7899 1.6527-2.3697 1.6527-1.8577 0-2.4128-.9273-2.4128-1.9354h-2.1134v.0809c0 1.794 1.2809 3.467 4.5262 3.467 2.9679 0 4.5478-1.3304 4.5478-3.3059v-.121c.0005-2.0563-1.4511-2.7619-4.2909-2.9638zm-4.8635-3.1365c-.3845.5445-1.2594 1.3909-2.9464 1.3909-1.34508 0-1.90023-.7661-1.90023-1.5724v-.1611c0-1.0081.70486-1.6125 2.02833-1.8144l2.8183-.4432z" fill="#fff"/><path class="dot" d="m16.0934 17.9895h-.2097-1.8996v1.0747h2.1093z" fill="#ffba11"/><path class="separator" d="m18.7282 21.0804h-.367v1.9238h.367z" fill="#6e16de"/></svg>
           </a>
           <p>3011 Grotto Walk<br />
             Ellicott City, Maryland 21042</p>
         </div>
-        <nav>
+        <nav aria-label="Footer nav">
         <ul><li><a href="/privacy/">Privacy Statement</a></li>
 <li><a href="/accessibility/">Accessibility Statement</a></li>
 <li><a href="/tou/">Terms of Use</a></li>
