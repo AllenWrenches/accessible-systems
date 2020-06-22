@@ -141,7 +141,7 @@ html {
 body {
   color: var(--text);
   font-weight: 400;
-  font-family: "cooper_hewittbook", Arial, serif; }
+  font-family: "cooper_hewittmedium", Arial, serif; }
 
 a {
   -webkit-text-decoration-skip: objects;
@@ -434,16 +434,6 @@ footer,
     display: block;
     max-width: 11rem;
     margin: 0 auto 1.5rem; }
-  .homepage-row form {
-    max-width: 25rem; }
-    .homepage-row form label,
-    .homepage-row form input,
-    .homepage-row form select {
-      display: block;
-      width: 100%; }
-    .homepage-row form input,
-    .homepage-row form select {
-      margin-bottom: 1rem; }
 
 .homepage-hero p {
   color: #4b4b4b;
@@ -453,10 +443,30 @@ footer,
 .content-wrapper {
   display: grid;
   grid-gap: 4rem;
-  grid-template-columns: 12.5rem minmax(0, 1fr);
+  grid-template-columns: 13.28rem minmax(0, 1fr);
   max-width: var(--maxWidth);
   margin: 0 auto;
   padding: 4rem 0 8rem; }
+
+aside ul {
+  margin-left: 1rem;
+  font-size: 0.8889rem;
+  list-style-image: url("/img/list-icon.svg"); }
+
+form {
+  max-width: 25rem; }
+  form label,
+  form input,
+  form select,
+  form textarea {
+    display: block;
+    width: 100%;
+    line-height: 1.5; }
+  form input,
+  form select,
+  form textarea {
+    margin-bottom: 1rem;
+    padding: 0.5rem; }
 
 .circle {
   display: flex;
@@ -657,19 +667,42 @@ article {
       </div>
     </header>
 
-  <div class="page-wrap">
+  <div class="page-wrap contact">
     <div class="inside">
       <div class="breadcrumbs">
         <p><a href="/">Home</a> > <strong>Contact</strong></p>
       </div>
       <div class="content-wrapper">
         
-          Sidebar pending
-        
+<aside>
+  <svg viewBox="0 0 175 175" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><clipPath id="d"><circle cx="87.5" cy="87.5" r="87.5"/></clipPath><circle cx="87.5" cy="87.5" fill="#ec3788" r="87.5"/><circle cx="87.5" cy="87.5" fill="none" r="87.5"/><g clip-path="url(#d)"><path d="m42.8 119.45v12.34l65.01 65 93.84-84.21-70.48-70.47-36.31.55-21.31-.55-27.71 1.46z" fill="#ec3788" opacity=".5"/></g><path d="m56.25 113.54v5.21h62v-5.21zm31.25-26h26v10.38h-26zm-31.25 0v5.21h15.62v-5.25zm28.65-5.25a2.61 2.61 0 0 0 -2.61 2.61v15.62a2.6 2.6 0 0 0 2.61 2.6h31.25a2.6 2.6 0 0 0 2.6-2.6v-15.62a2.61 2.61 0 0 0 -2.6-2.61zm2.6-20.83h26v10.41h-26zm-31.25 0v5.21h15.62v-5.21zm28.65-5.21a2.61 2.61 0 0 0 -2.61 2.6v15.63a2.6 2.6 0 0 0 2.61 2.6h31.25a2.6 2.6 0 0 0 2.6-2.6v-15.63a2.61 2.61 0 0 0 -2.6-2.6zm-36.3-10.41h77.8a2.7 2.7 0 0 1 2.76 2.76v77.81a2.7 2.7 0 0 1 -2.76 2.76h-77.8a2.7 2.7 0 0 1 -2.76-2.76v-77.81a2.7 2.7 0 0 1 2.76-2.76zm0-5.22a8 8 0 0 0 -8 8v77.81a8 8 0 0 0 8 8h77.8a8 8 0 0 0 8-8v-77.83a8 8 0 0 0 -8-8z" fill="#fff"/></svg>
+  <p>Reach us directly</p>
+  <ul>
+    <li>Voice/TTY  (410) 905-0028</li>
+    <li>Fax  (410) 418-8377</li>
+    <li><a href="www.accessible-systems.com">www.accessible-systems.com</a></li>
+    <li><a href="mailto:info@accessible-systems.com">info@accessible-systems.com</a></li>
+  </ul>
+</aside>
+
         <main class="post" id="content">
           <a id="content"></a>
           <h1>Contact</h1>
-          <p>Content Pending</p>
+          <form id="contact">
+  <label for="name">Your name</label>
+  <input type="text" id="name" />
+  <label for="email">Email</label>
+  <input type="text" id="email" />
+  <label for="about">You'd like info about</label>
+  <select id="about">
+    <option value="Product Testing">Product Testing</option>
+    <option value="Accessibility Consulting">Accessibility Consulting</option>
+    <option value="Accessibility Training">Accessibility Training</option>
+    <option value="Other">Other</option>
+  </select>
+  <label for="notes">Additional notes</label>
+  <textarea id="notes" cols="15" rows="4"></textarea>
+</form>
 
         </main>
       </div>

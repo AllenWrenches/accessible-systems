@@ -141,7 +141,7 @@ html {
 body {
   color: var(--text);
   font-weight: 400;
-  font-family: "cooper_hewittbook", Arial, serif; }
+  font-family: "cooper_hewittmedium", Arial, serif; }
 
 a {
   -webkit-text-decoration-skip: objects;
@@ -434,16 +434,6 @@ footer,
     display: block;
     max-width: 11rem;
     margin: 0 auto 1.5rem; }
-  .homepage-row form {
-    max-width: 25rem; }
-    .homepage-row form label,
-    .homepage-row form input,
-    .homepage-row form select {
-      display: block;
-      width: 100%; }
-    .homepage-row form input,
-    .homepage-row form select {
-      margin-bottom: 1rem; }
 
 .homepage-hero p {
   color: #4b4b4b;
@@ -453,10 +443,30 @@ footer,
 .content-wrapper {
   display: grid;
   grid-gap: 4rem;
-  grid-template-columns: 12.5rem minmax(0, 1fr);
+  grid-template-columns: 13.28rem minmax(0, 1fr);
   max-width: var(--maxWidth);
   margin: 0 auto;
   padding: 4rem 0 8rem; }
+
+aside ul {
+  margin-left: 1rem;
+  font-size: 0.8889rem;
+  list-style-image: url("/img/list-icon.svg"); }
+
+form {
+  max-width: 25rem; }
+  form label,
+  form input,
+  form select,
+  form textarea {
+    display: block;
+    width: 100%;
+    line-height: 1.5; }
+  form input,
+  form select,
+  form textarea {
+    margin-bottom: 1rem;
+    padding: 0.5rem; }
 
 .circle {
   display: flex;
@@ -657,7 +667,7 @@ article {
       </div>
     </header>
 
-  <div class="page-wrap">
+  <div class="page-wrap site-map">
     <div class="inside">
       <div class="breadcrumbs">
         <p><a href="/">Home</a> > <strong>Site Map</strong></p>
