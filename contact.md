@@ -7,7 +7,7 @@ eleventyNavigation:
   order: 6
 ---
 
-<form id="contact">
+<form id="contact" class="contact-form">
   <label for="name">Your name</label>
   <input type="text" id="name" />
   <label for="email">Email</label>
@@ -21,4 +21,8 @@ eleventyNavigation:
   </select>
   <label for="notes">Additional notes</label>
   <textarea id="notes" cols="15" rows="4"></textarea>
+  <div>
+    <input type="submit" class="btn" value="Submit Form" />
+    <input type="reset" class="btn inverted" value="Reset Form">
+  </div>
 </form>
