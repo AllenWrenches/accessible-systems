@@ -3,14 +3,16 @@
 {% block pageNav %}
 <aside>
   {{ icon | safe }}
-  <p>On this page</p>
-  <nav  class="subnav">
-    <ul>
-      {% for Training in collections.Training %}
+  <div class="subnav-wrap">
+    <p>On this page</p>
+    <nav  class="subnav">
+      <ul>
+        {% for Training in collections.Training %}
 
-      <li><a href="#{{Training.data.anchor | urlize | safe }}">{{Training.data.shortTitle}}</a></li>
-      {% endfor %}
-    </ul>
-  </nav>
+        <li><a href="#{{Training.data.anchor | urlize | safe }}">{{Training.data.shortTitle}}</a></li>
+        {% endfor %}
+      </ul>
+    </nav>
+  </div>
 </aside>
 {% endblock %}

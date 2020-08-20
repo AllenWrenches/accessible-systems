@@ -7,7 +7,7 @@ title: Accessible Systems Homepage
 
 <div class="homepage-row homepage-hero">
   <div>
-    <p>Expert consultation and support for global organizations, federal agencies, IT manufacturers and individuals with disabilities.</p>
+    <p>Expert Digital Accessibility Services.</p>
     <a href="contact" class="btn">Contact us today!</a>
   </div>
   <img src="img/homepage-hero.png" alt="Keyboard with Accessibility button" />
@@ -17,9 +17,11 @@ title: Accessible Systems Homepage
   {% for homepage-teaser in collections.homepage-teaser %}
   <div class="homepage-blurb {{ homepage-teaser.data.title | lower }}">
     {{homepage-teaser.data.icon}}
-    <h2>{{homepage-teaser.data.title}}</h2>
-    <p>{{homepage-teaser.data.teaser}}</p>
-    <a href="{{homepage-teaser.url}}" class="btn">{{homepage-teaser.data.title}} at ASI</a>
+    <div>
+      <h2>{{homepage-teaser.data.title}}</h2>
+      <p>{{homepage-teaser.data.teaser}}</p>
+      <a href="{{homepage-teaser.url}}" class="btn">{{homepage-teaser.data.title}} at ASI</a>
+    </div>
   </div>
   {% endfor %}
 </div>
