@@ -1,0 +1,13 @@
+---
+---
+{% include 'header-caps.njk' %}
+<main class="home" id="content">
+  <div class="inside">
+    {{ content | safe }}
+      {% include 'contact-form.njk' %}
+    </div>
+  </div>
+</main>
+{% include 'footer.njk' %}
+</body>
+</html>
