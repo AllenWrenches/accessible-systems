@@ -1,10 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>http://accessible-systems.com/</loc>
-    <lastmod>2020-05-20T02:32:49.287Z</lastmod>
-  </url>
-  <url>
     <loc>http://accessible-systems.com/document-remediation/</loc>
     <lastmod>2020-05-22T01:31:31.733Z</lastmod>
   </url>
@@ -51,6 +47,10 @@
   <url>
     <loc>http://accessible-systems.com/sitemap/</loc>
     <lastmod>2020-06-15T03:08:28.183Z</lastmod>
+  </url>
+  <url>
+    <loc>http://accessible-systems.com/</loc>
+    <lastmod>2020-08-20T03:42:36.839Z</lastmod>
   </url>
   
 </urlset>
