@@ -639,7 +639,7 @@ form .btn, form .btn:link, form .btn:visited, form .btn.inverted {
 
 .homepage-grid svg {
   display: block;
-  max-width: 20rem;
+  max-width: 60%;
   margin: 0 auto; }
 
 @media screen and (min-width: 43.75em) {
@@ -656,12 +656,21 @@ form .btn, form .btn:link, form .btn:visited, form .btn.inverted {
       font-size: 1.125rem;
       line-height: 1.75rem; } }
 
+.homepage-grid-bottom svg {
+  display: block;
+  max-width: 60%;
+  margin: 0 auto; }
+
 @media screen and (min-width: 43.75em) {
   .homepage-grid-bottom {
     display: grid;
     grid-column-gap: 5.6875rem;
     grid-template-columns: [full-start] minmax(0, 1fr) minmax(0, 1fr) [full-end];
-    margin-bottom: 8rem; } }
+    margin-bottom: 8rem; }
+    .homepage-grid-bottom svg {
+      display: block;
+      max-width: 11rem;
+      margin: 0 auto 1.5rem; } }
 
 .screen-reader-text {
   position: absolute;

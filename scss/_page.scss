@@ -352,7 +352,7 @@ form {
   }
   svg {
     display: block;
-    max-width: 20rem;
+    max-width: 60%;
     margin: 0 auto;
   }
 
@@ -377,6 +377,12 @@ form {
 }
 
 .homepage-grid-bottom {
+  svg {
+    display: block;
+    max-width: 60%;
+    margin: 0 auto;
+  }
+
   @include bp($small-medium) {
     display: grid;
     grid-column-gap: 5.6875rem;
@@ -384,6 +390,11 @@ form {
       [full-start] minmax(0, 1fr)
       minmax(0, 1fr) [full-end];
     margin-bottom: 8rem;
+    svg {
+      display: block;
+      max-width: 11rem;
+      margin: 0 auto 1.5rem;
+    }
   }
 }
 
