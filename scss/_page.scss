@@ -257,7 +257,7 @@ header {
   @include bp($small-medium) {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 8.1875rem;
+    margin-bottom: 6rem;
     > div {
       max-width: 28.6875rem;
     }
@@ -286,7 +286,7 @@ header {
     grid-template-columns: minmax(0, 20%) minmax(0, 1fr);
     max-width: var(--maxWidth);
     margin: 0 auto;
-    padding: 4rem 0 8rem;
+    padding: 4rem 0 6rem;
   }
 }
 
@@ -363,7 +363,7 @@ form {
       [full-start] minmax(0, 1fr)
       [main-start] minmax(0, 1fr) [main-end]
       minmax(0, 1fr) [full-end];
-    margin-bottom: 8rem;
+    margin-bottom: 6rem;
     svg {
       display: block;
       max-width: 11rem;
@@ -389,7 +389,7 @@ form {
     grid-template-columns:
       [full-start] minmax(0, 1fr)
       minmax(0, 1fr) [full-end];
-    margin-bottom: 8rem;
+    margin-bottom: 6rem;
     svg {
       display: block;
       max-width: 11rem;

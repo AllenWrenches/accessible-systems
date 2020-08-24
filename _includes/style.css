@@ -563,7 +563,7 @@ header .inside nav ul {
   .homepage-row {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 8.1875rem; }
+    margin-bottom: 6rem; }
     .homepage-row > div {
       max-width: 28.6875rem; }
     .homepage-row svg {
@@ -585,7 +585,7 @@ header .inside nav ul {
       grid-template-columns: minmax(0, 20%) minmax(0, 1fr);
       max-width: var(--maxWidth);
       margin: 0 auto;
-      padding: 4rem 0 8rem; } }
+      padding: 4rem 0 6rem; } }
 
 aside {
   display: flex;
@@ -647,7 +647,7 @@ form .btn, form .btn:link, form .btn:visited, form .btn.inverted {
     display: grid;
     grid-column-gap: 5.6875rem;
     grid-template-columns: [full-start] minmax(0, 1fr) [main-start] minmax(0, 1fr) [main-end] minmax(0, 1fr) [full-end];
-    margin-bottom: 8rem; }
+    margin-bottom: 6rem; }
     .homepage-grid svg {
       display: block;
       max-width: 11rem;
@@ -666,7 +666,7 @@ form .btn, form .btn:link, form .btn:visited, form .btn.inverted {
     display: grid;
     grid-column-gap: 5.6875rem;
     grid-template-columns: [full-start] minmax(0, 1fr) minmax(0, 1fr) [full-end];
-    margin-bottom: 8rem; }
+    margin-bottom: 6rem; }
     .homepage-grid-bottom svg {
       display: block;
       max-width: 11rem;
