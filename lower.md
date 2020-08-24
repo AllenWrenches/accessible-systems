@@ -1,5 +1,5 @@
 ---
-layout: home-caps.njk
+layout: home-lower.njk
 title: Accessible Systems Homepage
 ---
 
