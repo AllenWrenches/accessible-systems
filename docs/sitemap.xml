@@ -13,18 +13,6 @@
     <lastmod>2020-05-22T01:32:56.870Z</lastmod>
   </url>
   <url>
-    <loc>http://accessible-systems.com/testing/</loc>
-    <lastmod>2020-05-31T03:00:27.484Z</lastmod>
-  </url>
-  <url>
-    <loc>http://accessible-systems.com/consulting/</loc>
-    <lastmod>2020-05-31T03:01:35.649Z</lastmod>
-  </url>
-  <url>
-    <loc>http://accessible-systems.com/training/</loc>
-    <lastmod>2020-05-31T03:02:35.405Z</lastmod>
-  </url>
-  <url>
     <loc>http://accessible-systems.com/training-1/</loc>
     <lastmod>2020-06-09T03:30:32.879Z</lastmod>
   </url>
@@ -49,24 +37,36 @@
     <lastmod>2020-06-15T03:08:28.183Z</lastmod>
   </url>
   <url>
-    <loc>http://accessible-systems.com/</loc>
-    <lastmod>2020-08-20T11:51:47.107Z</lastmod>
-  </url>
-  <url>
     <loc>http://accessible-systems.com/lower/</loc>
     <lastmod>2020-08-24T02:25:27.593Z</lastmod>
   </url>
   <url>
+    <loc>http://accessible-systems.com/consulting/</loc>
+    <lastmod>2020-08-24T03:47:47.749Z</lastmod>
+  </url>
+  <url>
+    <loc>http://accessible-systems.com/</loc>
+    <lastmod>2020-08-24T03:47:47.758Z</lastmod>
+  </url>
+  <url>
     <loc>http://accessible-systems.com/testing-1/</loc>
-    <lastmod>2020-08-24T03:00:00.425Z</lastmod>
+    <lastmod>2020-08-24T03:47:47.758Z</lastmod>
   </url>
   <url>
     <loc>http://accessible-systems.com/testing-2/</loc>
-    <lastmod>2020-08-24T03:08:40.330Z</lastmod>
+    <lastmod>2020-08-24T03:47:47.759Z</lastmod>
   </url>
   <url>
     <loc>http://accessible-systems.com/testing-3/</loc>
-    <lastmod>2020-08-24T03:09:02.854Z</lastmod>
+    <lastmod>2020-08-24T03:47:47.759Z</lastmod>
+  </url>
+  <url>
+    <loc>http://accessible-systems.com/testing/</loc>
+    <lastmod>2020-08-24T03:47:47.759Z</lastmod>
+  </url>
+  <url>
+    <loc>http://accessible-systems.com/training/</loc>
+    <lastmod>2020-08-24T03:47:47.760Z</lastmod>
   </url>
   
 </urlset>
