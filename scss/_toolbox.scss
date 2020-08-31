@@ -4,6 +4,12 @@
   }
 }
 
+%hover {
+  color: $blue;
+  background: $yellow-light;
+  outline: 0.0556rem solid $blue;
+}
+
 // https://allyjs.io/tutorials/hiding-elements.html#2017-edition-of-visuallyhidden
 // stylelint-disable plugin/no-unsupported-browser-features
 %u-hidden-visually:not(:focus):not(:active) {
@@ -19,10 +25,6 @@
   clip-path: inset(100%);
 }
 // stylelint-enable
-
-.huh {
-  color: $yellow;
-}
 
 // https://css-tricks.com/snippets/css/prevent-long-urls-from-breaking-out-of-container/
 // stylelint-disable plugin/no-unsupported-browser-features, property-no-vendor-prefix

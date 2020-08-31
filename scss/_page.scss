@@ -53,7 +53,7 @@ footer,
         padding: 1rem 0;
         &:focus,
         &:hover {
-          outline: 0.1rem solid;
+          @extend %hover;
         }
 
         @include bp($medium) {
@@ -80,8 +80,7 @@ footer,
 
       &:focus,
       &:hover {
-        color: $black;
-        background: $white;
+        @extend %hover;
       }
     }
     nav,
@@ -163,7 +162,7 @@ header,
           }
           &:hover,
           &:focus {
-            color: $blue;
+            @extend %hover;
           }
         }
       }
@@ -200,7 +199,7 @@ footer,
           }
           &:hover,
           &:focus {
-            color: $yellow;
+            color: $blue;
           }
         }
       }

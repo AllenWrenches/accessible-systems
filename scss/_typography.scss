@@ -26,10 +26,7 @@ a {
   }
 
   &:focus {
-    color: var(--text);
-    text-decoration: none;
-    outline: 0.1875rem solid transparent;
-    outline-offset: 0;
+    @extend %hover;
   }
 }
 
@@ -51,6 +48,9 @@ a {
   &:hover,
   &:focus,
   &:active {
+    color: $blue;
+    background: $white;
+    outline: none;
     box-shadow: 0 0.0625rem 1rem $blue;
   }
   &.inverted {
