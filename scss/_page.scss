@@ -199,7 +199,9 @@ footer,
           }
           &:hover,
           &:focus {
-            color: $blue;
+            @extend %hover;
+            color: $yellow;
+            outline-color: $yellow;
           }
         }
       }

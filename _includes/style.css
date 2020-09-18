@@ -25,10 +25,15 @@ header .inside .nav ul a:focus,
 .header .inside nav ul a:hover,
 .header .inside nav ul a:focus,
 .header .inside .nav ul a:hover,
-.header .inside .nav ul a:focus {
+.header .inside .nav ul a:focus, footer .inside nav ul a:hover, footer .inside nav ul a:focus,
+footer .inside .nav ul a:hover,
+footer .inside .nav ul a:focus,
+.footer .inside nav ul a:hover,
+.footer .inside nav ul a:focus,
+.footer .inside .nav ul a:hover,
+.footer .inside .nav ul a:focus {
   color: #162ade;
-  background: #fdf6e7;
-  outline: 0.0556rem solid #162ade; }
+  outline: 0.1112rem solid #162ade; }
 
 .home h1:not(:focus):not(:active) {
   position: absolute;
@@ -527,7 +532,8 @@ footer,
   .footer .inside nav ul a:focus,
   .footer .inside .nav ul a:hover,
   .footer .inside .nav ul a:focus {
-    color: #162ade; }
+    color: #ffba11;
+    outline-color: #ffba11; }
 
 header .inside nav ul {
   display: none; }
