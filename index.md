@@ -5,12 +5,15 @@ title: Accessible Systems Homepage
 
 # Accessible Systems, inc.
 
-<div class="homepage-row homepage-hero">
-  <div>
+<div class="homepage-hero">
+  <div class="hero-text">
     <p>Expert Digital Accessibility Services.</p>
     <a href="contact" class="btn">Contact us today!</a>
   </div>
-  <img src="img/homepage-hero.png" alt="Keyboard with Accessibility button" />
+  <!-- <img src="img/homepage-hero.png" alt="Keyboard with Accessibility button" /> -->
+  <div class="hero-graphic">
+    <p>are you accessible?</p>
+  </div>
 </div>
 
 <div class="homepage-row homepage-grid">

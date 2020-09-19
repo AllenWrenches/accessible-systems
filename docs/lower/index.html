@@ -573,9 +573,6 @@ header .inside nav ul {
   .home form {
     max-width: 25rem; }
 
-.homepage-row img {
-  display: none; }
-
 @media screen and (min-width: 43.75em) {
   .homepage-row {
     display: flex;
@@ -592,6 +589,24 @@ header .inside nav ul {
   color: #4b4b4b;
   font-size: 1.75rem;
   font-family: "cooper_hewittheavy", Arial, serif; }
+
+@media screen and (min-width: 43.75em) {
+  .homepage-hero {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 6rem; }
+    .homepage-hero .hero-text {
+      max-width: 28.6875rem; }
+    .homepage-hero .hero-graphic {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 60%;
+      margin: 1rem;
+      padding: 1rem;
+      background: #6e16de; }
+      .homepage-hero .hero-graphic p {
+        color: #fff; } }
 
 .content-wrapper {
   display: block; }
@@ -829,7 +844,6 @@ form .btn, form .btn:link, form .btn:visited, form .btn.inverted {
   <textarea id="notes" cols="15" rows="4"></textarea>
   <div>
     <input type="submit" class="btn" value="Submit Form" />
-    <input type="reset" class="btn inverted" value="Reset Form">
   </div>
 </form>
 

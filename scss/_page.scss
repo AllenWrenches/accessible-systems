@@ -251,10 +251,6 @@ header {
 }
 
 .homepage-row {
-  img {
-    display: none;
-  }
-
   @include bp($small-medium) {
     display: flex;
     justify-content: space-between;
@@ -275,6 +271,27 @@ header {
     color: $gray-dark;
     font-size: 1.75rem;
     font-family: $font-family-bold;
+  }
+
+  @include bp($small-medium) {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 6rem;
+    .hero-text {
+      max-width: 28.6875rem;
+    }
+    .hero-graphic {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 60%;
+      margin: 1rem;
+      padding: 1rem;
+      background: $purple;
+      p {
+        color: $white;
+      }
+    }
   }
 }
 
