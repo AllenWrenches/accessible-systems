@@ -170,7 +170,8 @@ a {
   background-color: #162ade;
   border: 0;
   border-radius: 1.5625rem;
-  cursor: pointer; }
+  cursor: pointer;
+  -webkit-appearance: none; }
   .btn:hover, .btn:focus, .btn:active {
     color: #162ade;
     background: #fff;
@@ -588,7 +589,9 @@ header .inside nav ul {
       padding: 1rem;
       background: #6e16de; }
       .homepage-hero .hero-graphic p {
-        color: #fff; } }
+        color: #fff;
+        font-family: "cooper_hewittsemibold", Arial, serif;
+        letter-spacing: 0.05rem; } }
 
 .content-wrapper {
   display: block; }

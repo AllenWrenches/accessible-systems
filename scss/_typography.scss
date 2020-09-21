@@ -40,6 +40,9 @@ a {
   border: 0;
   border-radius: 1.5625rem;
   cursor: pointer;
+  // stylelint-disable property-no-vendor-prefix
+  -webkit-appearance: none;
+  // stylelint-enable
   &:link,
   &:visited {
     @extend .btn;

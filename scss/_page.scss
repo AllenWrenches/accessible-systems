@@ -270,7 +270,7 @@ header {
   p {
     color: $gray-dark;
     font-size: 1.75rem;
-    font-family: $font-family-bold;
+    font-family: $font-family-heavy;
   }
 
   @include bp($small-medium) {
@@ -290,6 +290,8 @@ header {
       background: $purple;
       p {
         color: $white;
+        font-family: $font-family-bold;
+        letter-spacing: 0.05rem;
       }
     }
   }

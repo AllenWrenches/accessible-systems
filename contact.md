@@ -7,22 +7,25 @@ eleventyNavigation:
   order: 6
 ---
 
-<form id="contact" class="contact-form">
+<form id="contact" class="contact-form" action="https://formsubmit.co/86dc18479d99ed31cdfb364bac4bc54f" method="POST">
+  <input type="hidden" name="_next" value="https://accessible-systems.mattallenwrenches.com/">
+  <input type="hidden" name="_subject" value="New Submission">
+  <input type="hidden" name="_captcha" value="false">
+  <input type="hidden" name="_template" value="box">
   <label for="name">Your name</label>
-  <input type="text" id="name" />
+  <input type="text" id="name" name="Name" />
   <label for="email">Email</label>
-  <input type="text" id="email" />
+  <input type="email" id="email" name="Email" />
   <label for="about">You'd like info about</label>
-  <select id="about">
+  <select id="about" name="About">
     <option value="Product Testing">Product Testing</option>
     <option value="Accessibility Consulting">Accessibility Consulting</option>
     <option value="Accessibility Training">Accessibility Training</option>
     <option value="Other">Other</option>
   </select>
   <label for="notes">Additional notes</label>
-  <textarea id="notes" cols="15" rows="4"></textarea>
+  <textarea id="notes" cols="15" rows="4" name="Additional Notes"></textarea>
   <div>
     <input type="submit" class="btn" value="Submit Form" />
-    <input type="reset" class="btn inverted" value="Reset Form">
   </div>
 </form>
