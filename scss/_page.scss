@@ -188,6 +188,14 @@ footer,
       .separator {
         fill: $gray-dark;
       }
+      a {
+        margin-right: 1rem;
+        &:hover,
+        &:focus {
+          @extend %hover;
+          outline-color: $yellow;
+        }
+      }
     }
     nav,
     .nav {
@@ -267,10 +275,14 @@ header {
 }
 
 .homepage-hero {
+  margin-bottom: 2rem;
   p {
     color: $gray-dark;
     font-size: 1.75rem;
     font-family: $font-family-heavy;
+  }
+  .hero-graphic {
+    display: none;
   }
 
   @include bp($small-medium) {
@@ -307,6 +319,14 @@ header {
     max-width: var(--maxWidth);
     margin: 0 auto;
     padding: 4rem 0 6rem;
+  }
+}
+
+.content {
+  display: flex;
+  > svg {
+    flex: 0 0 2.22222rem;
+    margin-right: 1rem;
   }
 }
 
