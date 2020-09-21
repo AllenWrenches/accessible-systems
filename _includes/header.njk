@@ -15,7 +15,7 @@
     <link rel="alternate" href="/atom.xml" title="{{ site.name }}" type="application/atom+xml">
     <script>if ('serviceWorker' in navigator) { navigator.serviceWorker.register('/sw.js'); }</script>
     {% set css %}{% include "style.css" %}{% endset %}
-    {# <style>{{ css | cssmin | safe }}</style> #}
+    <style>{{ css | cssmin | safe }}</style>
     <style>{{ css | safe }}</style>
   </head>
 

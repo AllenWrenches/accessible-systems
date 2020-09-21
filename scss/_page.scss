@@ -382,8 +382,12 @@ form {
 }
 
 .contact-form {
-  padding: 3.5rem 6rem;
+  padding: 1rem;
   background: $gray-transparent;
+
+  @include bp($small-medium) {
+    padding: 3.5rem 6rem;
+  }
 }
 
 .homepage-grid {

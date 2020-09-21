@@ -664,8 +664,11 @@ form .btn, form .btn:link, form .btn:visited, form .btn.inverted {
   outline: 0.1875rem solid transparent; }
 
 .contact-form {
-  padding: 3.5rem 6rem;
+  padding: 1rem;
   background: rgba(229, 229, 229, 0.2); }
+  @media screen and (min-width: 43.75em) {
+    .contact-form {
+      padding: 3.5rem 6rem; } }
 
 .homepage-grid > div {
   margin: 1rem 0 2rem; }
