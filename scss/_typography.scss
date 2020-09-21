@@ -113,11 +113,14 @@ ol {
 }
 
 ul {
-  list-style-type: circle;
+  list-style-type: square;
 }
 
 li {
   line-height: 1.5;
+  &::marker {
+    color: $purple;
+  }
 }
 
 em {

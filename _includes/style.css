@@ -220,10 +220,12 @@ ol {
   padding: 0; }
 
 ul {
-  list-style-type: circle; }
+  list-style-type: square; }
 
 li {
   line-height: 1.5; }
+  li::marker {
+    color: #6e16de; }
 
 em {
   font-style: italic; }
