@@ -1,0 +1,25 @@
+{
+  "short_name": "asi",
+  "name": "Accessible Systems, inc",
+  "icons": [
+    {
+      "src": "/apple-touch-icon.png",
+      "sizes": "152x152",
+      "type": "image/png"
+    },
+    {
+      "src": "/img/logo.svg",
+      "sizes": "320x320",
+      "type": "image/svg"
+    },
+    {
+      "src": "/img/logo-text.svg",
+      "sizes": "640x640",
+      "type": "image/svg"
+    }
+  ],
+  "background_color": "#F9F9F9",
+  "theme_color": "#727272",
+  "start_url": "/",
+  "display": "minimal-ui"
+}
