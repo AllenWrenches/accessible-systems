@@ -249,7 +249,7 @@ header {
 }
 
 .home {
-  padding-top: 1rem;
+  padding-top: 3rem;
   h1 {
     @extend %u-hidden-visually;
   }
@@ -262,7 +262,7 @@ header {
   @include bp($small-medium) {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 4rem;
+    margin-bottom: 6rem;
     > div {
       max-width: 28.6875rem;
     }
@@ -286,25 +286,18 @@ header {
   }
 
   @include bp($small-medium) {
-    // display: flex;
-    // justify-content: space-between;
-    margin-bottom: 4rem;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 6rem;
     .hero-text {
-      display: flex;
-      align-items: center;
-      justify-content: space-around;
-      // max-width: 28.6875rem;
-      width: 100%;
-      .btn {
-        margin-top: 0;
-      }
+      max-width: 28.6875rem;
     }
     .hero-graphic {
       display: flex;
       align-items: center;
       justify-content: center;
-      width: 100%;
-      margin: 1rem 0;
+      width: 60%;
+      margin: 1rem;
       padding: 1rem;
       background: $purple;
       p {
@@ -325,7 +318,7 @@ header {
     grid-template-columns: minmax(0, 20%) minmax(0, 1fr);
     max-width: var(--maxWidth);
     margin: 0 auto;
-    padding: 4rem 0;
+    padding: 4rem 0 6rem;
   }
 }
 
@@ -414,7 +407,7 @@ form {
       [full-start] minmax(0, 1fr)
       [main-start] minmax(0, 1fr) [main-end]
       minmax(0, 1fr) [full-end];
-    margin-bottom: 4rem;
+    margin-bottom: 6rem;
     svg {
       display: block;
       max-width: 11rem;
@@ -440,7 +433,7 @@ form {
     grid-template-columns:
       [full-start] minmax(0, 1fr)
       minmax(0, 1fr) [full-end];
-    margin-bottom: 4rem;
+    margin-bottom: 6rem;
     svg {
       display: block;
       max-width: 11rem;
