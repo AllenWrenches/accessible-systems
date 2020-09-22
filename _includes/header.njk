@@ -16,7 +16,7 @@
     <script>if ('serviceWorker' in navigator) { navigator.serviceWorker.register('/sw.js'); }</script>
     {% set css %}{% include "style.css" %}{% endset %}
     <style>{{ css | cssmin | safe }}</style>
-    <style>{{ css | safe }}</style>
+    {# <style>{{ css | safe }}</style> #}
   </head>
 
   <body>
