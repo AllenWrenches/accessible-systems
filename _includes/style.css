@@ -561,7 +561,7 @@ header .inside nav ul {
     margin: 0; }
 
 .home {
-  padding-top: 3rem; }
+  padding-top: 1rem; }
   .home form {
     max-width: 25rem; }
 
@@ -569,7 +569,7 @@ header .inside nav ul {
   .homepage-row {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 6rem; }
+    margin-bottom: 4rem; }
     .homepage-row > div {
       max-width: 28.6875rem; }
     .homepage-row svg {
@@ -587,17 +587,20 @@ header .inside nav ul {
     display: none; }
   @media screen and (min-width: 43.75em) {
     .homepage-hero {
-      display: flex;
-      justify-content: space-between;
-      margin-bottom: 6rem; }
+      margin-bottom: 4rem; }
       .homepage-hero .hero-text {
-        max-width: 28.6875rem; }
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        width: 100%; }
+        .homepage-hero .hero-text .btn {
+          margin-top: 0; }
       .homepage-hero .hero-graphic {
         display: flex;
         align-items: center;
         justify-content: center;
-        width: 60%;
-        margin: 1rem;
+        width: 100%;
+        margin: 1rem 0;
         padding: 1rem;
         background: #6e16de; }
         .homepage-hero .hero-graphic p {
@@ -614,7 +617,7 @@ header .inside nav ul {
       grid-template-columns: minmax(0, 20%) minmax(0, 1fr);
       max-width: var(--maxWidth);
       margin: 0 auto;
-      padding: 4rem 0 6rem; } }
+      padding: 4rem 0; } }
 
 .content {
   display: flex; }
@@ -685,7 +688,7 @@ form .btn, form .btn:link, form .btn:visited, form .btn.inverted {
     display: grid;
     grid-column-gap: 5.6875rem;
     grid-template-columns: [full-start] minmax(0, 1fr) [main-start] minmax(0, 1fr) [main-end] minmax(0, 1fr) [full-end];
-    margin-bottom: 6rem; }
+    margin-bottom: 4rem; }
     .homepage-grid svg {
       display: block;
       max-width: 11rem;
@@ -704,7 +707,7 @@ form .btn, form .btn:link, form .btn:visited, form .btn.inverted {
     display: grid;
     grid-column-gap: 5.6875rem;
     grid-template-columns: [full-start] minmax(0, 1fr) minmax(0, 1fr) [full-end];
-    margin-bottom: 6rem; }
+    margin-bottom: 4rem; }
     .homepage-grid-bottom svg {
       display: block;
       max-width: 11rem;
