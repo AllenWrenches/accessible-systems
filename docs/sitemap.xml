@@ -1,18 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>http://accessible-systems.com/about/</loc>
-    <lastmod>2020-05-22T01:32:13.088Z</lastmod>
-  </url>
-  <url>
-    <loc>http://accessible-systems.com/training-1/</loc>
-    <lastmod>2020-06-09T03:30:32.879Z</lastmod>
-  </url>
-  <url>
-    <loc>http://accessible-systems.com/training-2/</loc>
-    <lastmod>2020-06-09T04:02:32.293Z</lastmod>
-  </url>
-  <url>
     <loc>http://accessible-systems.com/privacy/</loc>
     <lastmod>2020-06-15T02:55:21.438Z</lastmod>
   </url>
@@ -31,10 +19,6 @@
   <url>
     <loc>http://accessible-systems.com/lower/</loc>
     <lastmod>2020-08-24T02:25:27.593Z</lastmod>
-  </url>
-  <url>
-    <loc>http://accessible-systems.com/consulting/</loc>
-    <lastmod>2020-08-24T03:47:47.749Z</lastmod>
   </url>
   <url>
     <loc>http://accessible-systems.com/testing-1/</loc>
@@ -57,28 +41,44 @@
     <lastmod>2020-09-21T03:01:28.132Z</lastmod>
   </url>
   <url>
-    <loc>http://accessible-systems.com/testing-3/</loc>
-    <lastmod>2020-09-22T13:25:27.060Z</lastmod>
-  </url>
-  <url>
     <loc>http://accessible-systems.com/</loc>
     <lastmod>2020-09-22T13:25:48.579Z</lastmod>
   </url>
   <url>
+    <loc>http://accessible-systems.com/about/</loc>
+    <lastmod>2020-09-25T03:57:39.863Z</lastmod>
+  </url>
+  <url>
     <loc>http://accessible-systems.com/consulting-1/</loc>
-    <lastmod>2020-09-25T02:46:28.017Z</lastmod>
+    <lastmod>2020-09-25T03:57:39.863Z</lastmod>
   </url>
   <url>
     <loc>http://accessible-systems.com/consulting-2/</loc>
-    <lastmod>2020-09-25T02:53:01.219Z</lastmod>
+    <lastmod>2020-09-25T03:57:39.863Z</lastmod>
   </url>
   <url>
-    <loc>http://accessible-systems.com/training-4/</loc>
-    <lastmod>2020-09-25T02:56:45.208Z</lastmod>
+    <loc>http://accessible-systems.com/consulting/</loc>
+    <lastmod>2020-09-25T03:57:39.864Z</lastmod>
+  </url>
+  <url>
+    <loc>http://accessible-systems.com/testing-3/</loc>
+    <lastmod>2020-09-25T03:57:39.873Z</lastmod>
+  </url>
+  <url>
+    <loc>http://accessible-systems.com/training-1/</loc>
+    <lastmod>2020-09-25T03:57:39.874Z</lastmod>
+  </url>
+  <url>
+    <loc>http://accessible-systems.com/training-2/</loc>
+    <lastmod>2020-09-25T03:57:39.874Z</lastmod>
   </url>
   <url>
     <loc>http://accessible-systems.com/training-3/</loc>
-    <lastmod>2020-09-25T02:56:46.601Z</lastmod>
+    <lastmod>2020-09-25T03:57:39.875Z</lastmod>
+  </url>
+  <url>
+    <loc>http://accessible-systems.com/training-4/</loc>
+    <lastmod>2020-09-25T03:57:39.875Z</lastmod>
   </url>
   
 </urlset>
