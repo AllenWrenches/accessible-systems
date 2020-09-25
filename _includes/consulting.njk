@@ -1,0 +1,18 @@
+{% extends "_includes/page.njk" %}
+
+{% block pageNav %}
+<aside>
+  {{ icon | safe }}
+  <div class="subnav-wrap">
+    <p>On this page</p>
+    <nav  class="subnav">
+      <ul>
+        {% for Consulting in collections.Consulting %}
+
+        <li><a href="#{{Consulting.data.anchor | urlize | safe }}">{{Consulting.data.shortTitle}}</a></li>
+        {% endfor %}
+      </ul>
+    </nav>
+  </div>
+</aside>
+{% endblock %}

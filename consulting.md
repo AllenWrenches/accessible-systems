@@ -1,5 +1,5 @@
 ---
-layout: page.njk
+layout: consulting.njk
 title: Consulting
 shortTitle: Consulting
 tags: homepage-teaser
@@ -10,4 +10,17 @@ eleventyNavigation:
   order: 2
 ---
 
-Content Pending
+Accessible Systems, Inc. specializes in helping organizations integrate accessibility into the fabric of their business. We examine all areas of the information technology (IT) infrastructure to identify areas that need program development. Making accessibility an integral part of the information technology structure helps ensure its sustainability. Whether your organization has legislative requirements, wants to benefit by hiring from the millions of qualified people with disabilities around the globe, or needs to ensure that its customers with disabilities have access to the organization's electronic information, Accessible Systems, Inc. can help you create an accessible environment.
+
+The following is a description of the consulting services that we offer. Please contact us if you have any questions or if you are interested in arranging one or more of the services below.
+
+{% for Consulting in collections.Consulting %}
+
+<section class="content {{ Consulting.data.anchor | lower }}" id="{{ Consulting.data.anchor | urlize | lower }}">
+  {{Consulting.data.icon}}
+  <div>
+    <h2>{{Consulting.data.title}}</h2>
+    <p>{{ Consulting.templateContent | safe }}</p>
+  </div>
+</section>
+{% endfor %}

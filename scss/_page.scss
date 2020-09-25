@@ -4,19 +4,14 @@ body {
 }
 
 header,
-.header,
 main,
-.main,
 .page-wrap {
   margin: 0 1rem;
 }
 
 header,
-.header,
 footer,
-.footer,
 main,
-.main,
 .page-wrap {
   .inside {
     @include bp($medium) {
@@ -26,10 +21,31 @@ main,
   }
 }
 
+header {
+  .inside {
+    nav {
+      ul {
+        display: none;
+        .is-active {
+          display: block;
+        }
+        a {
+          &:link,
+          &:visited {
+            color: $black;
+          }
+          &:hover,
+          &:focus {
+            @extend %hover;
+          }
+        }
+      }
+    }
+  }
+}
+
 header,
-.header,
-footer,
-.footer {
+footer {
   .inside {
     justify-content: space-between;
     padding: 1rem 0.5rem;
@@ -149,33 +165,12 @@ footer,
   }
 }
 
-header,
-.header {
-  .inside {
-    nav,
-    .nav {
-      ul {
-        a {
-          &:link,
-          &:visited {
-            color: $black;
-          }
-          &:hover,
-          &:focus {
-            @extend %hover;
-          }
-        }
-      }
-    }
-  }
-}
-
-footer,
-.footer {
+footer {
   color: $white;
   background: $purple-dark;
   .inside {
     .logo {
+      display: flex;
       .background {
         fill: $white;
       }
@@ -200,6 +195,10 @@ footer,
     nav,
     .nav {
       ul {
+        display: flex;
+        > li {
+          margin-left: 0;
+        }
         a {
           &:link,
           &:visited {
@@ -211,19 +210,6 @@ footer,
             color: $yellow;
             outline-color: $yellow;
           }
-        }
-      }
-    }
-  }
-}
-
-header {
-  .inside {
-    nav {
-      ul {
-        display: none;
-        .is-active {
-          display: block;
         }
       }
     }
@@ -309,16 +295,22 @@ header {
   }
 }
 
-.content-wrapper {
+.content-wrapper,
+.content-wrapper-nosidebar {
   display: block;
 
+  @include bp($small) {
+    max-width: var(--maxWidth);
+    margin: 0 auto;
+    padding: 4rem 0 6rem;
+  }
+}
+
+.content-wrapper {
   @include bp($small) {
     display: grid;
     grid-gap: 6%;
     grid-template-columns: minmax(0, 20%) minmax(0, 1fr);
-    max-width: var(--maxWidth);
-    margin: 0 auto;
-    padding: 4rem 0 6rem;
   }
 }
 

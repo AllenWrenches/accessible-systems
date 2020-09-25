@@ -1,0 +1,15 @@
+{% include "header.njk" %}
+  <div class="page-wrap {{ title | slug }}">
+    <div class="inside">
+      <div class="breadcrumbs">
+        <p><a href="/">Home</a> > <strong>{{title}}</strong></p>
+      </div>
+      <div class="content-wrapper-nosidebar">
+        <main class="post" id="content">
+          <h1>{{ title | capitalize }}</h1>
+          {{ content | safe }}
+        </main>
+      </div>
+    </div>
+  </div>
+{% include "footer.njk" %}
