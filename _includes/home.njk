@@ -7,16 +7,6 @@
       {% include 'contact-form.njk' %}
     </div>
   </div>
-  {% for Testing in collections.Testing | sortByOrder %}
-
-<section class="content {{ Testing.data.anchor | lower }}" id="{{ Testing.data.anchor | urlize | lower }}">
-  {{Testing.data.icon}}
-  <div>
-    <h2>{{Testing.data.title}}</h2>
-    <p>{{ Testing.templateContent | safe }}</p>
-  </div>
-</section>
-{% endfor %}
 </main>
 {% include 'footer.njk' %}
 </body>
