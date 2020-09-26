@@ -7,7 +7,7 @@
     <p>On this page</p>
     <nav  class="subnav">
       <ul>
-        {% for Training in collections.Training %}
+        {% for Training in collections.Training | sortByOrder %}
 
         <li><a href="#{{Training.data.anchor | urlize | safe }}">{{Training.data.shortTitle}}</a></li>
         {% endfor %}

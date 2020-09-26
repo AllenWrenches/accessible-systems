@@ -7,7 +7,7 @@
     <p>On this page</p>
     <nav  class="subnav">
       <ul>
-        {% for Consulting in collections.Consulting %}
+        {% for Consulting in collections.Consulting | sortByOrder %}
 
         <li><a href="#{{Consulting.data.anchor | urlize | safe }}">{{Consulting.data.shortTitle}}</a></li>
         {% endfor %}
