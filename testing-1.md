@@ -1,6 +1,6 @@
 ---
 title: Websites and Web Applications
-shortTitle: Websites and applications
+shortTitle: Websites
 anchor: websites
 tags: Testing
 icon: >-
