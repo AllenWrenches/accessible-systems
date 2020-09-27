@@ -1,28 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>http://accessible-systems.com/privacy/</loc>
-    <lastmod>2020-06-15T02:55:21.438Z</lastmod>
-  </url>
-  <url>
-    <loc>http://accessible-systems.com/accessibility/</loc>
-    <lastmod>2020-06-15T03:05:12.867Z</lastmod>
-  </url>
-  <url>
-    <loc>http://accessible-systems.com/tou/</loc>
-    <lastmod>2020-06-15T03:06:50.213Z</lastmod>
-  </url>
-  <url>
-    <loc>http://accessible-systems.com/sitemap/</loc>
-    <lastmod>2020-06-15T03:08:28.183Z</lastmod>
-  </url>
-  <url>
     <loc>http://accessible-systems.com/lower/</loc>
     <lastmod>2020-08-24T02:25:27.593Z</lastmod>
-  </url>
-  <url>
-    <loc>http://accessible-systems.com/training/</loc>
-    <lastmod>2020-08-24T03:47:47.760Z</lastmod>
   </url>
   <url>
     <loc>http://accessible-systems.com/contact/</loc>
@@ -79,6 +59,26 @@
   <url>
     <loc>http://accessible-systems.com/testing-1/</loc>
     <lastmod>2020-09-27T02:58:53.067Z</lastmod>
+  </url>
+  <url>
+    <loc>http://accessible-systems.com/accessibility/</loc>
+    <lastmod>2020-09-27T03:37:14.024Z</lastmod>
+  </url>
+  <url>
+    <loc>http://accessible-systems.com/privacy/</loc>
+    <lastmod>2020-09-27T03:37:14.026Z</lastmod>
+  </url>
+  <url>
+    <loc>http://accessible-systems.com/sitemap/</loc>
+    <lastmod>2020-09-27T03:37:14.026Z</lastmod>
+  </url>
+  <url>
+    <loc>http://accessible-systems.com/tou/</loc>
+    <lastmod>2020-09-27T03:37:14.027Z</lastmod>
+  </url>
+  <url>
+    <loc>http://accessible-systems.com/training/</loc>
+    <lastmod>2020-09-27T03:56:19.128Z</lastmod>
   </url>
   
 </urlset>
