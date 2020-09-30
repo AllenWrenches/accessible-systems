@@ -1,6 +1,7 @@
 ---
 layout: testing.njk
 title: Accessibility Testing
+description:
 shortTitle: Testing
 tags: homepage-teaser
 teaser: Services for WCAG, ADA and Section 508 compliance.  If your goal is compliance or the generation of a VPAT you have come to the right place.  We customize solutions to meet your needs.

@@ -1,6 +1,7 @@
 ---
 layout: training.njk
 title: Training
+description:
 shortTitle: Training
 tags: homepage-teaser
 templateEngineOverride: njk, md

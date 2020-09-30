@@ -1,6 +1,7 @@
 ---
 layout: home-lower.njk
 title: Accessible Systems Homepage
+description:
 ---
 
 # Accessible Systems, inc.
