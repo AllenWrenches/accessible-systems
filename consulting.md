@@ -1,6 +1,7 @@
 ---
 layout: consulting.njk
 title: Consulting
+description:
 shortTitle: Consulting
 tags: homepage-teaser
 teaser: Specializing in providing accessibility consulting services to organizations, helping them integrate accessibility into the fabric of their business.  We teach you to bake accessibility into your process.

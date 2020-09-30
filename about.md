@@ -1,6 +1,7 @@
 ---
 layout: page-nosidebar.njk
 title: About Accessible Systems, Inc.
+description:
 eleventyNavigation:
   key: About
   order: 5
