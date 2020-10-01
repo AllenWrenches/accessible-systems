@@ -487,6 +487,26 @@ footer {
           font-family: "cooper_hewittsemibold", Arial, serif;
           letter-spacing: 0.05rem; } }
 
+.logos {
+  display: block; }
+  .logos div {
+    display: block; }
+    .logos div img {
+      display: block;
+      max-height: 12.222rem;
+      margin: 1rem auto; }
+    @media screen and (min-width: 43.75em) {
+      .logos div {
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        max-width: 100%; }
+        .logos div img {
+          min-width: 0;
+          margin: 0.5rem;
+          -o-object-fit: contain;
+             object-fit: contain; } }
+
 .content-wrapper,
 .content-wrapper-nosidebar {
   display: block; }
