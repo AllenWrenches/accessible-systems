@@ -1,11 +1,7 @@
 ---
 layout: home.njk
 title: Accessible Systems Homepage
-description: >-
-  Accessible Systems, Inc., a women-owned small business, provides expert
-  consultation and support to global organizations, federal agencies, IT
-  manufacturers and individuals with disabilities regarding information
-  technology accessibility.
+description: null
 published: true
 ---
 
