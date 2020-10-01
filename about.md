@@ -24,6 +24,7 @@ Our consultants have extensive experience in all phases of information technolog
 - Requirements for Accessible Software Design
 - Encore Achievers Award
 - Microsoft Accessibility Advisor Council
+- IAAP
 
 ## About Terri
 
