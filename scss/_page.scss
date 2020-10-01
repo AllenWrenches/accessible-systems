@@ -216,16 +216,6 @@ footer {
   }
 }
 
-.page-wrap,
-.home {
-  background: linear-gradient(
-    180deg,
-    rgba(230, 230, 230, 0.25) 0%,
-    rgba(255, 255, 255, 1) 20%,
-    rgba(255, 255, 255, 1) 100%
-  );
-}
-
 .page-wrap {
   padding-top: 1rem;
   main {
@@ -302,7 +292,8 @@ footer {
 
     img {
       display: block;
-      max-height: 12.222rem;
+      max-width: 11.111rem;
+      max-height: 8.889rem;
       margin: 1rem auto;
     }
 
@@ -464,5 +455,7 @@ form {
   width: 0.0625rem;
   height: 0.0625rem;
   overflow: hidden;
+  color: $black;
+  background-color: $white;
   clip: rect(0.0625rem, 0.0625rem, 0.0625rem, 0.0625rem);
 }

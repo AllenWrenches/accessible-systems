@@ -62,6 +62,7 @@ description: Accessible Systems, Inc., a women-owned small business, provides ex
 </div>
 
 <div class="homepage-row  logos">
+  <h2>Some of Our Clients</h2>
   <div>
     <img src="img/logo-salesforce.png" alt="Salesforce">
     <img src="img/logo-avaya.png" alt="Avaya">

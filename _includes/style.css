@@ -432,10 +432,6 @@ footer {
       color: #ffba11;
       outline-color: #ffba11; }
 
-.page-wrap,
-.home {
-  background: linear-gradient(180deg, rgba(230, 230, 230, 0.25) 0%, white 20%, white 100%); }
-
 .page-wrap {
   padding-top: 1rem; }
   .page-wrap main {
@@ -493,7 +489,8 @@ footer {
     display: block; }
     .logos div img {
       display: block;
-      max-height: 12.222rem;
+      max-width: 11.111rem;
+      max-height: 8.889rem;
       margin: 1rem auto; }
     @media screen and (min-width: 43.75em) {
       .logos div {
@@ -622,6 +619,8 @@ form .btn, form .btn:link, form .btn:visited, form .btn.inverted {
   width: 0.0625rem;
   height: 0.0625rem;
   overflow: hidden;
+  color: #222;
+  background-color: #fff;
   clip: rect(0.0625rem, 0.0625rem, 0.0625rem, 0.0625rem); }
 
 @media print {
