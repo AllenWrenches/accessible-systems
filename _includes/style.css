@@ -614,6 +614,9 @@ form .btn, form .btn:link, form .btn:visited, form .btn.inverted {
       max-width: 11rem;
       margin: 0 auto 1.5rem; } }
 
+.honey {
+  display: none; }
+
 .screen-reader-text {
   position: absolute;
   width: 0.0625rem;
