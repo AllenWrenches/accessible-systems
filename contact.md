@@ -30,6 +30,8 @@ published: true
   <input type="hidden" name="_subject" value="New Submission">
   <input type="hidden" name="_captcha" value="false">
   <input type="hidden" name="_template" value="box">
+  <label for="honey" style="display:none;">Do not populate, thie field is to catch spammers</label>
+  <input type="text" id="honey" name="_honey" style="display:none">
   <label for="name">Your name</label>
   <input type="text" id="name" name="Name" />
   <label for="email">Email</label>

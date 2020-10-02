@@ -23,16 +23,17 @@ published: true
 
 Digital Accessibility includes all areas of an organization's IT infrastructure. Accessible Systems, Inc. will conduct a comprehensive assessment of your organization's workflows. With the information from the audit, your organization will know where its weaknesses/barriers are and have an outline to create an accessibility action plan.
 
-- Evaluate your organization's business structure and identify the units needing an accessibility component. 
+- Evaluate your organization's business structure and identify the units needing an accessibility component.
 - Work closely with each unit to understand the business and identify areas for process engineering.
 
 The result is a detailed integration plan that outlines programs that should be developed for each area of the business. With this plan in hand, your organization will be able to develop, implement and support accessibility throughout the company.
 
-Once you have conducted an internal audit and determined areas of integration, Accessible Systems, Inc. can help you develop a detailed Action Plan that will walk you, step by step, through the process of developing, implementing and supporting an IT Accessibility Program. 
+Once you have conducted an internal audit and determined areas of integration, Accessible Systems, Inc. can help you develop a detailed Action Plan that will walk you, step by step, through the process of developing, implementing and supporting an IT Accessibility Program.
 
 To ensure that accessibility becomes a part of your overall business objectives, policies and procedures are necessary. Accessible Systems, Inc. has years of experience developing:
+
 - policies
-- procedures 
+- procedures
 - processes
 
 that integrate accessibility into the fabric of an organization. Examples of policies and procedures include Web and Software Accessibility Policies, Accessibility Testing Procedures, Procurement Policies, Checklists and Tools for Accessibility Compliance, and much more.

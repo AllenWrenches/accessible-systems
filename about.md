@@ -1,6 +1,6 @@
 ---
 layout: page-nosidebar.njk
-title: 'About Accessible Systems, Inc.'
+title: "About Accessible Systems, Inc."
 description: null
 eleventyNavigation:
   key: About
