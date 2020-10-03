@@ -31,4 +31,3 @@ Our accessibility evaluation methodology is used to evaluate how well your websi
 These are just a few examples of the tests we conduct to ensure the web content is accessible.
 
 Our final report to you will detail if there are barriers, who is impacted, what technical requirement is not met, a priority for the barrier.
-
