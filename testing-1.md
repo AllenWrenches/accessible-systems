@@ -32,6 +32,3 @@ These are just a few examples of the tests we conduct to ensure the web content 
 
 Our final report to you will detail if there are barriers, who is impacted, what technical requirement is not met, a priority for the barrier.
 
-- Software Applications
-
-Software that is not run using a browser but rather installed on the computer’s hard drive has a different testing methodology and tools.
