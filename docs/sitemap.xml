@@ -37,15 +37,7 @@
     <lastmod>2020-10-01T21:21:47.985Z</lastmod>
   </url>
   <url>
-    <loc>http://accessible-systems.com/testing-1/</loc>
-    <lastmod>2020-10-01T21:21:47.990Z</lastmod>
-  </url>
-  <url>
     <loc>http://accessible-systems.com/testing-2/</loc>
-    <lastmod>2020-10-01T21:21:47.991Z</lastmod>
-  </url>
-  <url>
-    <loc>http://accessible-systems.com/testing-3/</loc>
     <lastmod>2020-10-01T21:21:47.991Z</lastmod>
   </url>
   <url>
@@ -74,11 +66,19 @@
   </url>
   <url>
     <loc>http://accessible-systems.com/contact/</loc>
-    <lastmod>2020-10-02T22:15:59.628Z</lastmod>
+    <lastmod>2020-10-02T22:51:26.591Z</lastmod>
   </url>
   <url>
     <loc>http://accessible-systems.com/</loc>
-    <lastmod>2020-10-02T22:15:59.634Z</lastmod>
+    <lastmod>2020-10-02T22:51:26.597Z</lastmod>
+  </url>
+  <url>
+    <loc>http://accessible-systems.com/testing-3/</loc>
+    <lastmod>2020-10-03T14:38:00.466Z</lastmod>
+  </url>
+  <url>
+    <loc>http://accessible-systems.com/testing-1/</loc>
+    <lastmod>2020-10-03T14:38:12.316Z</lastmod>
   </url>
   
 </urlset>
