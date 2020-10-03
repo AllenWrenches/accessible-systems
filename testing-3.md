@@ -15,4 +15,4 @@ To comply with Section 508 or the Americans with Disabilities Act your documents
 
 If you have documents that you need to be made accessible, please contact us.
 
-<a href="contact" class="btn">Contact us today!</a>
+<a href="/contact" class="btn">Contact us today!</a>
