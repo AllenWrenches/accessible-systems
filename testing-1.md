@@ -24,20 +24,9 @@ published: true
 Our accessibility evaluation methodology is used to evaluate how well your website conforms to Web Content Accessibility Guidelines (WCAG) 2.0, an international set of standards from the Web Accessibility Initiative (WAI) of the World Wide Web Consortium (W3C). We use a combination of methods to evaluate accessibility.
 
 - Automated Accessibility Evaluation
-
-Automated evaluation of web pages identifies accessibility issues that lend themselves easily to detection by software—for example, the absence of page code that provides alternative descriptions for images. Automated tools are also useful for detecting possible violations that must be verified by a skilled accessibility evaluator, by inspection or interaction with the web page.
-
 - Manual Accessibility Evaluation
-
-In manual evaluation, we will use direct code inspection and tools (such as special browser add-ons) to confirm issues found by automated tools, look for other issues that automatic tools cannot detect, and assess accessibility content for meaning and usability. For example, only a human evaluator can determine if the alternative text for an image is a meaningful equivalent of that image.
-
 - Assistive Technology Accessibility Evaluation
-
-Another manual method we will use is using tools that people with disabilities use like screen reader and other assistive technologies. In this method, we simulate an end user experience to test the website.
-
 - Keyboard and Focus Testing
-
-Because many people use a keyboard rather than a mouse to navigate a website, this method also provides insights into keyboard accessibility for people who use other keyboards or keyboard emulators, such as users with impaired motor abilities.
 
 These are just a few examples of the tests we conduct to ensure the web content is accessible.
 
