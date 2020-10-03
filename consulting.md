@@ -19,7 +19,7 @@ The following is a description of the consulting services that we offer. Please 
 {% for Consulting in collections.Consulting | sortByOrder %}
 
 <section class="content {{ Consulting.data.anchor | lower }}" id="{{ Consulting.data.anchor | urlize | lower }}">
-  {{Consulting.data.icon}}
+  {{Consulting.data.icon | safe}}
   <div>
     <h2>{{Consulting.data.title}}</h2>
     <p>{{ Consulting.templateContent | safe }}</p>
