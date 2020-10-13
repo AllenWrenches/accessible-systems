@@ -3,7 +3,7 @@ title: Expert Witness Work
 shortTitle: Expert Witness
 anchor: expert-witness
 tags: Consulting
-icon: <svg fill="none" height="40" viewBox="0 0 40 40" width="40" xmlns="http://www.w3.org/2000/svg"><circle cx="20" cy="20" fill="#162ade" r="20"/><g fill="#fff"><path d="m18.48 23.05a4.58 4.58 0 1 1 4.57-4.57 4.58 4.58 0 0 1 -4.57 4.57zm8.92 3.27-4.11-4.11a6.1 6.1 0 1 0 -1.08 1.08l4.11 4.11a.76.76 0 0 0 1.08-1.08z"/><path d="m20.22 16.41-2.51 2.52-1-1a.76.76 0 0 0 -1.08 0 .78.78 0 0 0 0 1.08l1.53 1.52a.74.74 0 0 0 1.07 0l3.05-3.05a.76.76 0 0 0 0-1.08.78.78 0 0 0 -1.08 0z"/></g></svg>
+icon: <svg height="40" viewBox="0 0 40 40" width="40" xmlns="http://www.w3.org/2000/svg"><circle cx="20" cy="20" fill="#162ade" r="20"/><path d="m30 28.53-5.56-5.53a8.24 8.24 0 1 0 -1.44 1.44l5.53 5.56a1 1 0 0 0 1.47-1.47z" fill="#fff"/><path d="m20.3 15.16-3.39 3.39-1.32-1.33a1 1 0 1 0 -1.46 1.46l2.06 2.05a1 1 0 0 0 1.45 0l4.12-4.11a1 1 0 0 0 -1.46-1.46z" fill="#162ade"/></svg>
 order: 2
 ---
 
