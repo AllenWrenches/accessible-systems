@@ -25,7 +25,13 @@ eleventyNavigation:
 published: true
 ---
 
-<form id="contact" class="contact-form kwes-form" action="https://kwes.io/api/foreign/forms/O5DjQmjrtrFjbhr4JrmQ" method="POST" data-kw-mode="test">
+<form id="contact" class="contact-form" action="https://formsubmit.co/292013f29e46949b5eacb1085b445343" method="POST">
+  <input type="hidden" name="_next" value="http://accessible-systems.com/">
+  <input type="hidden" name="_subject" value="New Submission">
+  <input type="hidden" name="_captcha" value="false">
+  <input type="hidden" name="_template" value="box">
+  <label for="honey" class="honey">Do not populate, thie field is to catch spammers</label>
+  <input type="text" id="honey" name="_honey" class="honey">
   <label for="name">Your name</label>
   <input type="text" id="name" name="Name" />
   <label for="email">Email</label>
@@ -38,7 +44,7 @@ published: true
     <option value="Other">Other</option>
   </select>
   <label for="notes">Additional notes</label>
-  <textarea id="notes" cols="15" rows="4" name="Additional_Notes"></textarea>
+  <textarea id="notes" cols="15" rows="4" name="Additional Notes"></textarea>
   <div>
     <input type="submit" class="btn" value="Submit Form" />
   </div>
