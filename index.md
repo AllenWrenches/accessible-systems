@@ -1,4 +1,8 @@
--h
+---
+layout: home.njk
+title: Accessible Systems Homepage
+description: null
+published: true
 ---
 
 # Accessible Systems, inc.
