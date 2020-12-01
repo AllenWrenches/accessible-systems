@@ -25,7 +25,7 @@ eleventyNavigation:
 published: true
 ---
 
-<form id="contact" class="contact-form" action="https://formsubmit.co/292013f29e46949b5eacb1085b445343" method="POST">
+<form id="contact" class="contact-form" action="https://formsubmit.co/mattallen17@gmail.com" method="POST">
   <input type="hidden" name="_next" value="http://accessible-systems.com/">
   <input type="hidden" name="_subject" value="New Submission">
   <input type="hidden" name="_captcha" value="false">
