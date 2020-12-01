@@ -42,7 +42,7 @@ published: true
     <label for="name">Your name</label>
     <input type="text" id="name" name="Name" />
     <label for="email">Email</label>
-    <input type="text" id="email" name="Email" />
+    <input type="text" id="email" name="Email" rules="email" />
     <label for="about">You'd like info about</label>
     <select id="about" name="About">
       <option value="Product Testing">Product Testing</option>
