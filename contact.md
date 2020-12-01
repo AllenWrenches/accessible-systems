@@ -25,7 +25,7 @@ eleventyNavigation:
 published: true
 ---
 
-<form id="contact" class="contact-form kwes-form" action="https://kwes.io/api/foreign/forms/LVdL6LxBuNUxTf7nwLu5" method="POST" data-kw-mode="test">
+<form id="contact" class="contact-form kwes-form" action="https://kwes.io/api/foreign/forms/O5DjQmjrtrFjbhr4JrmQ" method="POST" data-kw-mode="test">
   <label for="name">Your name</label>
   <input type="text" id="name" name="Name" />
   <label for="email">Email</label>
