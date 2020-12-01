@@ -614,6 +614,10 @@ form .btn, form .btn:link, form .btn:visited, form .btn.inverted {
       max-width: 11rem;
       margin: 0 auto 1.5rem; } }
 
+small a {
+  position: absolute;
+  left: -500rem; }
+
 .honey {
   display: none; }
 
