@@ -26,7 +26,7 @@ published: true
 ---
 
 <div class="kwes-form">
-  <form id="contact" class="contact-form" action="https://kwes.io/api/foreign/forms/LVdL6LxBuNUxTf7nwLu5" method="POST" data-kw-mode="test">
+  <form id="contact" class="contact-form" action="https://kwes.io/api/foreign/forms/If7bzJl8DlksPtB72Yrb" method="POST" data-kw-mode="test">
     <label for="name">Your name</label>
     <input type="text" id="name" name="Name" />
     <label for="email">Email</label>
