@@ -25,13 +25,7 @@ eleventyNavigation:
 published: true
 ---
 
-<form id="contact" class="contact-form" action="https://formsubmit.co/mattallen17@gmail.com" method="POST">
-  <input type="hidden" name="_next" value="http://accessible-systems.com/">
-  <input type="hidden" name="_subject" value="New Submission">
-  <input type="hidden" name="_captcha" value="false">
-  <input type="hidden" name="_template" value="box">
-  <label for="honey" class="honey">Do not populate, thie field is to catch spammers</label>
-  <input type="text" id="honey" name="_honey" class="honey">
+<form id="contact" class="contact-form kwes-form" action="https://kwes.io/api/foreign/forms/LVdL6LxBuNUxTf7nwLu5" method="POST" data-kw-mode="test">
   <label for="name">Your name</label>
   <input type="text" id="name" name="Name" />
   <label for="email">Email</label>
