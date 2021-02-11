@@ -455,9 +455,11 @@ small a {
   left: -500rem;
 }
 
-.honey {
-  display: none;
+// stylelint-disable selector-no-qualifying-type
+p.help.is-danger-110293 {
+  color: $red;
 }
+// stylelint-enable
 
 .screen-reader-text {
   position: absolute;

@@ -1,9 +1,9 @@
 {% include "header.njk" %}
   <div class="page-wrap {{ title | slug }}">
     <div class="inside">
-      <div class="breadcrumbs">
+      <nav class="breadcrumbs" aria-label="breadcrumbs">
         <p><a href="/">Home</a> > <strong>{{title}}</strong></p>
-      </div>
+      </nav>
       <div class="content-wrapper-nosidebar">
         <main class="post" id="content">
           <h1>{{ title | capitalize }}</h1>
