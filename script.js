@@ -12,3 +12,11 @@ toggle.addEventListener("click", function () {
     //menuItems[0].focus();
   }
 });
+
+newFunction();
+function newFunction() {
+  setTimeout(() => {
+    var b = document.querySelector(".kw-form-wrapper small a");
+    b.style.setProperty("color", "rgb(118 118 118)", "important");
+  }, 1000);
+}
