@@ -8,7 +8,7 @@ order: 1
 published: true
 ---
 
-Our accessibility evaluation methodology is used to evaluate how well your website conforms to Web Content Accessibility Guidelines (WCAG) 2.0, an international set of standards from the Web Accessibility Initiative (WAI) of the World Wide Web Consortium (W3C). We use a combination of methods to evaluate accessibility.
+Our accessibility evaluation methodology is used to evaluate how well your website conforms to Web Content Accessibility Guidelines (WCAG) 2.1, an international set of standards from the Web Accessibility Initiative (WAI) of the World Wide Web Consortium (W3C). We use a combination of methods to evaluate accessibility.
 
 - Automated Accessibility Evaluation
 - Manual Accessibility Evaluation
