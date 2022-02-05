@@ -26,14 +26,17 @@ header {
     nav {
       ul {
         display: none;
+
         .is-active {
           display: block;
         }
+
         a {
           &:link,
           &:visited {
             color: $black;
           }
+
           &:hover,
           &:focus {
             @extend %hover;
@@ -53,6 +56,7 @@ footer {
     @include bp($medium) {
       display: flex;
     }
+
     .logo {
       position: relative;
       display: block;
@@ -62,11 +66,13 @@ footer {
       @include bp($medium) {
         display: flex;
       }
+
       > a {
         display: flex;
         align-items: center;
         max-width: 75%;
         padding: 1rem 0;
+
         &:focus,
         &:hover {
           @extend %hover;
@@ -77,11 +83,13 @@ footer {
         }
       }
     }
+
     .icon-logo {
       width: 2rem;
       height: 2rem;
       margin: 0 0.2917rem 0 0;
     }
+
     button {
       position: absolute;
       top: 1.6rem;
@@ -99,14 +107,17 @@ footer {
         @extend %hover;
       }
     }
+
     nav,
     .nav {
       height: 100%;
+
       button {
         @include bp($small-medium) {
           display: none;
         }
       }
+
       ul {
         display: none;
         height: 100%;
@@ -116,6 +127,7 @@ footer {
           display: flex;
           flex-direction: row;
         }
+
         > li {
           margin-left: 1rem;
           list-style: none;
@@ -129,6 +141,7 @@ footer {
           }
         }
       }
+
       .is-active {
         display: block;
 
@@ -136,19 +149,23 @@ footer {
           display: flex;
         }
       }
+
       a {
         display: flex;
         justify-content: center;
         height: 100%;
         padding: 1rem 0.5rem;
         text-align: center;
+
         &:link,
         &:visited {
           text-decoration: none;
         }
+
         span {
           border-bottom: 0.1rem solid transparent;
         }
+
         &:hover,
         &:focus {
           span {
@@ -156,6 +173,7 @@ footer {
           }
         }
       }
+
       .active-page {
         span {
           border-color: $blue;
@@ -168,23 +186,30 @@ footer {
 footer {
   color: $white;
   background: $purple-dark;
+
   .inside {
     .logo {
       display: flex;
+
       .background {
         fill: $white;
       }
+
       .text {
         fill: $purple;
       }
+
       .dot {
         fill: $yellow;
       }
+
       .separator {
         fill: $gray-dark;
       }
+
       a {
         margin-right: 1rem;
+
         &:hover,
         &:focus {
           @extend %hover;
@@ -192,18 +217,22 @@ footer {
         }
       }
     }
+
     nav,
     .nav {
       ul {
         display: flex;
+
         > li {
           margin-left: 0;
         }
+
         a {
           &:link,
           &:visited {
             color: $white;
           }
+
           &:hover,
           &:focus {
             @extend %hover;
@@ -218,6 +247,7 @@ footer {
 
 .page-wrap {
   padding-top: 1rem;
+
   main {
     display: block;
     margin: 0;
@@ -226,9 +256,11 @@ footer {
 
 .home {
   padding-top: 3rem;
+
   h1 {
     @extend %u-hidden-visually;
   }
+
   form {
     max-width: 25rem;
   }
@@ -239,9 +271,11 @@ footer {
     display: flex;
     justify-content: space-between;
     margin-bottom: 6rem;
+
     > div {
       max-width: 28.6875rem;
     }
+
     svg {
       display: block;
       max-width: 11rem;
@@ -252,11 +286,13 @@ footer {
 
 .homepage-hero {
   margin-bottom: 2rem;
+
   p {
     color: $gray-dark;
     font-size: 1.75rem;
     font-family: $font-family-heavy;
   }
+
   .hero-graphic {
     display: none;
   }
@@ -265,9 +301,11 @@ footer {
     display: flex;
     justify-content: space-between;
     margin-bottom: 6rem;
+
     .hero-text {
       max-width: 28.6875rem;
     }
+
     .hero-graphic {
       display: flex;
       align-items: center;
@@ -276,6 +314,7 @@ footer {
       margin: 1rem;
       padding: 1rem;
       background: $purple;
+
       p {
         color: $white;
         font-family: $font-family-bold;
@@ -287,6 +326,7 @@ footer {
 
 .logos {
   display: block;
+
   div {
     display: block;
 
@@ -302,6 +342,7 @@ footer {
       align-items: center;
       justify-content: space-evenly;
       max-width: 100%;
+
       img {
         min-width: 0;
         margin: 0.5rem;
@@ -332,6 +373,7 @@ footer {
 
 .content {
   display: flex;
+
   > svg {
     flex: 0 0 2.22222rem;
     margin-right: 1rem;
@@ -342,12 +384,15 @@ aside {
   display: flex;
   flex-direction: row-reverse;
   column-gap: 1rem;
+
   .subnav-wrap {
     flex-basis: 100%;
   }
+
   svg {
     width: 40%;
   }
+
   ul {
     margin-left: 1rem;
     font-size: 0.8889rem;
@@ -356,6 +401,7 @@ aside {
 
   @include bp($small) {
     display: block;
+
     svg {
       width: 100%;
       max-width: 9.72rem;
@@ -372,16 +418,19 @@ form {
     width: 100%;
     line-height: 1.5;
   }
+
   input,
   select,
   textarea {
     margin-bottom: 1rem;
     padding: 0.5rem;
   }
+
   div {
     display: flex;
     justify-content: space-between;
   }
+
   .btn {
     width: auto;
     margin-top: 0;
@@ -402,6 +451,7 @@ form {
   > div {
     margin: 1rem 0 2rem;
   }
+
   svg {
     display: block;
     max-width: 60%;
@@ -412,15 +462,16 @@ form {
     display: grid;
     grid-column-gap: 5.6875rem;
     grid-template-columns:
-      [full-start] minmax(0, 1fr)
-      [main-start] minmax(0, 1fr) [main-end]
-      minmax(0, 1fr) [full-end];
+      [full-start] minmax(0, 1fr) [main-start] minmax(0, 1fr)
+      [main-end] minmax(0, 1fr) [full-end];
     margin-bottom: 6rem;
+
     svg {
       display: block;
       max-width: 11rem;
       margin: 0 auto 1.5rem;
     }
+
     p {
       font-size: 1.125rem;
       line-height: 1.75rem;
@@ -438,10 +489,9 @@ form {
   @include bp($small-medium) {
     display: grid;
     grid-column-gap: 5.6875rem;
-    grid-template-columns:
-      [full-start] minmax(0, 1fr)
-      minmax(0, 1fr) [full-end];
+    grid-template-columns: [full-start] minmax(0, 1fr) minmax(0, 1fr) [full-end];
     margin-bottom: 6rem;
+
     svg {
       display: block;
       max-width: 11rem;
@@ -459,6 +509,7 @@ small a {
 p.help.is-danger-110293 {
   color: $red;
 }
+
 // stylelint-enable
 
 .screen-reader-text {

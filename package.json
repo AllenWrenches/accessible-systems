@@ -6,7 +6,7 @@
   "description": "accessible-systems.com",
   "main": "index.html",
   "scripts": {
-    "css": "npm run prettier:scss && npm run stylelint && npm run scss && npm run autoprefixer",
+    "css": "npm run prettier:scss && npm run scss && npm run autoprefixer",
     "prettier:scss": "prettier --write \"**/*.scss\"",
     "stylelint": "stylelint \"scss/**/*.scss\" --fix",
     "scss": "node-sass --output-style verbose -o _includes scss",

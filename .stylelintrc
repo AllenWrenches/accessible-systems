@@ -1,5 +1,5 @@
 {
-   "extends": [
+  "extends": [
     "stylelint-config-rational-order"
   ],
   "plugins": [
@@ -12,18 +12,28 @@
     "stylelint-config-rational-order/plugin"
   ],
   "rules": {
-    "at-rule-empty-line-before": ["always", "except": ["blockless-after-same-name-blockless", "blockless-after-blockless", "first-nested"]],
+    "at-rule-empty-line-before": [
+      "always",
+      "except": [
+        "blockless-after-same-name-blockless",
+        "blockless-after-blockless",
+        "first-nested"
+      ]
+    ],
     "at-rule-name-case": "lower",
     "at-rule-name-newline-after": null,
     "at-rule-name-space-after": "always-single-line",
-    "at-rule-no-unknown": [ true, {
-      "ignoreAtRules": [
-        "extend",
-        "include",
-        "mixin",
-        "content"
-      ]
-    }],
+    "at-rule-no-unknown": [
+      true,
+      {
+        "ignoreAtRules": [
+          "extend",
+          "include",
+          "mixin",
+          "content"
+        ]
+      }
+    ],
     "at-rule-no-vendor-prefix": true,
     "at-rule-semicolon-newline-after": "always",
     "at-rule-semicolon-space-before": "never",
@@ -114,7 +124,13 @@
     "selector-max-specificity": "0,4,2",
     "selector-max-type": 5,
     "selector-max-universal": 2,
-    "selector-no-qualifying-type": [true, { ignore: ["attribute"] }],
+    "selector-no-qualifying-type": [
+      true,
+      { ignore: [
+          "attribute"
+        ]
+      }
+    ],
     "selector-no-vendor-prefix": true,
     "selector-pseudo-class-case": "lower",
     "selector-pseudo-class-no-unknown": true,
@@ -127,42 +143,84 @@
     "string-quotes": "double",
     "unit-no-unknown": true,
     "unit-case": "lower",
-    "unit-whitelist": ["em", "rem", "%", "s", "ch", "vh", "vw", "deg", "fr"],
+    "unit-allowed-list": [
+      "em",
+      "rem",
+      "%",
+      "s",
+      "ch",
+      "vh",
+      "vw",
+      "deg",
+      "fr"
+    ],
     "value-list-comma-newline-after": null,
     "value-list-comma-space-after": "always-single-line",
     "value-list-comma-space-before": "never",
     "value-no-vendor-prefix": true,
-
-
-    "a11y/media-prefers-reduced-motion": [true, { "severity": "warning" }],
+    "a11y/media-prefers-reduced-motion": [
+      true,
+      {
+        "severity": "warning"
+      }
+    ],
     "a11y/no-outline-none": true,
     "a11y/selector-pseudo-class-focus": true,
-    "a11y/font-size-is-readable": [true, { "severity": "warning" }],
-    "a11y/no-spread-text": [true, { "severity": "warning" }],
-    "a11y/no-obsolete-attribute": [true, { "severity": "warning" }],
-    "a11y/no-obsolete-element": [true, { "severity": "warning" }],
-    "a11y/no-text-align-justify": [true, { "severity": "error" }],
-
-
+    "a11y/font-size-is-readable": [
+      true,
+      {
+        "severity": "warning"
+      }
+    ],
+    "a11y/no-spread-text": [
+      true,
+      {
+        "severity": "warning"
+      }
+    ],
+    "a11y/no-obsolete-attribute": [
+      true,
+      {
+        "severity": "warning"
+      }
+    ],
+    "a11y/no-obsolete-element": [
+      true,
+      {
+        "severity": "warning"
+      }
+    ],
+    "a11y/no-text-align-justify": [
+      true,
+      {
+        "severity": "error"
+      }
+    ],
     "plugin/declaration-block-no-ignored-properties": true,
-
-
-    "plugin/no-unsupported-browser-features": [true, {
-      "severity": "warning",
-      "browsers": ["> .5% in US and last 2 version"],
-      "ignore": [
-        "calc",
-        "css-featurequeries",
-        "css-gradients",
-        "flexbox",
-        "multicolumn",
-        "outline",
-        "viewport-units"
-      ]
-    }],
-
-
-    "scss/at-extend-no-missing-placeholder": [true, { "severity": "warning" }],
+    "plugin/no-unsupported-browser-features": [
+      true,
+      {
+        "severity": "warning",
+        "browsers": [
+          "> .5% in US and last 2 version"
+        ],
+        "ignore": [
+          "calc",
+          "css-featurequeries",
+          "css-gradients",
+          "flexbox",
+          "multicolumn",
+          "outline",
+          "viewport-units"
+        ]
+      }
+    ],
+    "scss/at-extend-no-missing-placeholder": [
+      true,
+      {
+        "severity": "warning"
+      }
+    ],
     "scss/at-import-no-partial-leading-underscore": true,
     "scss/comment-no-loud": true,
     "scss/declaration-nested-properties": "never",
@@ -175,15 +233,26 @@
     "scss/partial-no-import": true,
     "scss/selector-no-redundant-nesting-selector": true,
     "scss/selector-no-union-class-name": true,
-
-
-    "sh-waqar/declaration-use-variable": [["/color/", "font-family", { ignoreValues: ["auto", "transparent", "inherit", "0"] }]],
-
-
+    "sh-waqar/declaration-use-variable": [
+      [
+        "/color/",
+        "font-family",
+        { ignoreValues: [
+            "auto",
+            "transparent",
+            "inherit",
+            "0"
+          ]
+        }
+      ]
+    ],
     "order/properties-order": [],
-    "plugin/rational-order": [true, {
-      "border-in-box-model": false,
-      "empty-line-between-groups": false,
-    }]
+    "plugin/rational-order": [
+      true,
+      {
+        "border-in-box-model": false,
+        "empty-line-between-groups": false,
+      }
+    ]
   }
 }

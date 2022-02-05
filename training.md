@@ -16,7 +16,7 @@ At Accessible Systems, Inc., we believe that proper training is key to ensuring 
 
 {% for Training in collections.Training | sortByOrder %}
 
-<section class="content {{ Training.data.anchor | lower }}" id="{{ Training.data.anchor | urlize | lower }}">
+<section class="content {{ Training.data.anchor }}" id="{{ Training.data.anchor | urlize }}">
   {{Training.data.icon | safe}}
   <div>
     <h2>{{Training.data.title}}</h2>

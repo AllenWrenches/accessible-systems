@@ -9,7 +9,7 @@
   outline: 0.1112rem solid $blue;
 }
 
-// https://allyjs.io/tutorials/hiding-elements.html#2017-edition-of-visuallyhidden
+/* https://allyjs.io/tutorials/hiding-elements.html#2017-edition-of-visuallyhidden */
 // stylelint-disable plugin/no-unsupported-browser-features
 %u-hidden-visually:not(:focus):not(:active) {
   position: absolute;
@@ -23,6 +23,7 @@
   clip: rect(0 0 0 0);
   clip-path: inset(100%);
 }
+
 // stylelint-enable
 
 // https://css-tricks.com/snippets/css/prevent-long-urls-from-breaking-out-of-container/
@@ -37,4 +38,5 @@
   -webkit-hyphens: auto;
   hyphens: auto;
 }
+
 // stylelint-enable

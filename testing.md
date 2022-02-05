@@ -14,7 +14,7 @@ eleventyNavigation:
 
 {% for Testing in collections.Testing | sortByOrder %}
 
-<section class="content {{ Testing.data.anchor | lower }}" id="{{ Testing.data.anchor | urlize | lower }}">
+<section class="content {{ Testing.data.anchor }}" id="{{ Testing.data.anchor | urlize }}">
   {{Testing.data.icon | safe}}
   <div>
     <h2>{{Testing.data.title}}</h2>

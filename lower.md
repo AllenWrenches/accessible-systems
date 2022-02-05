@@ -16,7 +16,7 @@ description:
 
 <div class="homepage-row homepage-grid">
   {% for homepage-teaser in collections.homepage-teaser %}
-  <div class="homepage-blurb {{ homepage-teaser.data.title | lower }}">
+  <div class="homepage-blurb {{ homepage-teaser.data.title }}">
     {{homepage-teaser.data.icon}}
     <div>
       <h2>{{homepage-teaser.data.title}}</h2>

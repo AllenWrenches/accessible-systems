@@ -15,6 +15,7 @@ footer .inside .nav ul a:focus {
   color: #162ade;
   outline: 0.1112rem solid #162ade; }
 
+/* https://allyjs.io/tutorials/hiding-elements.html#2017-edition-of-visuallyhidden */
 .home h1:not(:focus):not(:active) {
   position: absolute;
   width: 0.1rem;
