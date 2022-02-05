@@ -13,3 +13,5 @@ Terri Youngblood Savage provides the following expert witness services:
 - Expert Witness Testimony for Web Accessibility
 
 Over the past 10 years Terri has completed over 100 website accessibility evaluations for the Federal Government, Industry, Legal Organizations. Her experience in these investigations has resulted in many success website accessibility transformations.
+
+As a digital accessibility expert her duties included working with counsel to review plaintiff complaints, performing assessments of the websites, designing remediation strategies, monitoring corrective website accessibility work and mediation. Terri can perform digitasl accessibility assessments and provide documentation required to validate a case or evaluate a claim. 
