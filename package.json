@@ -29,7 +29,7 @@
   "devDependencies": {
     "@11ty/eleventy": "^1.0.0",
     "@11ty/eleventy-navigation": "^0.3.2",
-    "autoprefixer": "^10.4.2",
+    "autoprefixer": "^10.4.4",
     "clean-css": "^5.2.4",
     "constyble": "^1.3.0",
     "extra-eyes": "^3.0.2",
