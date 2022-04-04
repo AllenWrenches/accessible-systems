@@ -48,7 +48,7 @@
     "stylelint-declaration-use-variable": "^1.7.3",
     "stylelint-no-unsupported-browser-features": "^5.0.3",
     "stylelint-order": "^5.0.0",
-    "stylelint-scss": "^4.1.0",
+    "stylelint-scss": "^4.2.0",
     "tap-spec": "^5.0.0"
   },
   "husky": {
