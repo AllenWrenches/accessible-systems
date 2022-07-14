@@ -59,6 +59,7 @@ a {
 
   &.inverted {
     @extend .btn;
+
     color: $blue;
     background-color: $white;
     border: 0.0556rem solid;

@@ -1,24 +1,25 @@
 {
   "extends": [
-    "stylelint-config-rational-order"
+    "stylelint-config-standard-scss"
   ],
   "plugins": [
-    "stylelint-a11y",
+    "@double-great/stylelint-a11y",
     "stylelint-declaration-block-no-ignored-properties",
-    "stylelint-declaration-use-variable",
+    "stylelint-declaration-strict-value",
     "stylelint-no-unsupported-browser-features",
-    "stylelint-scss",
-    "stylelint-order",
-    "stylelint-config-rational-order/plugin"
+    "stylelint-scss"
   ],
   "rules": {
+    "alpha-value-notation": null,
     "at-rule-empty-line-before": [
       "always",
-      "except": [
-        "blockless-after-same-name-blockless",
-        "blockless-after-blockless",
-        "first-nested"
-      ]
+      {
+        "except": [
+          "blockless-after-same-name-blockless",
+          "blockless-after-blockless",
+          "first-nested"
+        ]
+      }
     ],
     "at-rule-name-case": "lower",
     "at-rule-name-newline-after": null,
@@ -48,6 +49,7 @@
     "block-opening-brace-space-after": "always-single-line",
     "block-opening-brace-space-before": "always",
     "color-hex-case": "lower",
+    "color-function-notation": null,
     "color-named": "never",
     "color-no-invalid-hex": true,
     "comment-empty-line-before": "always",
@@ -104,6 +106,7 @@
     "no-invalid-double-slash-comments": true,
     "no-unknown-animations": true,
     "number-leading-zero": "always",
+    "number-max-precision": null,
     "number-no-trailing-zeros": true,
     "property-case": "lower",
     "property-no-unknown": true,
@@ -111,22 +114,25 @@
     "selector-attribute-brackets-space-inside": "never",
     "selector-attribute-operator-space-after": "never",
     "selector-attribute-operator-space-before": "never",
+    "selector-class-pattern": null,
     "selector-combinator-space-after": "always",
     "selector-combinator-space-before": "always",
+    "selector-id-pattern": null,
     "selector-list-comma-space-before": "never",
     "selector-max-attribute": 2,
-    "selector-max-class": 4,
-    "selector-max-combinators": 4,
+    "selector-max-class": 6,
+    "selector-max-combinators": 6,
     "selector-max-compound-selectors": 6,
     "selector-max-empty-lines": 0,
     "selector-max-id": 0,
-    "selector-max-pseudo-class": 2,
+    "selector-max-pseudo-class": 5,
     "selector-max-specificity": "0,4,2",
-    "selector-max-type": 5,
+    "selector-max-type": 6,
     "selector-max-universal": 2,
     "selector-no-qualifying-type": [
       true,
-      { ignore: [
+      {
+        "ignore": [
           "attribute"
         ]
       }
@@ -148,22 +154,18 @@
       "rem",
       "%",
       "s",
+      "ms",
       "ch",
       "vh",
       "vw",
       "deg",
       "fr"
     ],
+    "value-keyword-case": null,
     "value-list-comma-newline-after": null,
     "value-list-comma-space-after": "always-single-line",
     "value-list-comma-space-before": "never",
     "value-no-vendor-prefix": true,
-    "a11y/media-prefers-reduced-motion": [
-      true,
-      {
-        "severity": "warning"
-      }
-    ],
     "a11y/no-outline-none": true,
     "a11y/selector-pseudo-class-focus": true,
     "a11y/font-size-is-readable": [
@@ -201,9 +203,6 @@
       true,
       {
         "severity": "warning",
-        "browsers": [
-          "> .5% in US and last 2 version"
-        ],
         "ignore": [
           "calc",
           "css-featurequeries",
@@ -221,6 +220,7 @@
         "severity": "warning"
       }
     ],
+    "scss/at-mixin-pattern": null,
     "scss/at-import-no-partial-leading-underscore": true,
     "scss/comment-no-loud": true,
     "scss/declaration-nested-properties": "never",
@@ -228,30 +228,25 @@
     "scss/dollar-variable-colon-space-before": "never",
     "scss/dollar-variable-no-missing-interpolation": true,
     "scss/double-slash-comment-whitespace-inside": "always",
-    "scss/function-color-relative": true,
+    "scss/no-global-function-names": null,
     "scss/operator-no-unspaced": true,
     "scss/partial-no-import": true,
+    "scss/percent-placeholder-pattern": null,
     "scss/selector-no-redundant-nesting-selector": true,
-    "scss/selector-no-union-class-name": true,
-    "sh-waqar/declaration-use-variable": [
+    "scale-unlimited/declaration-strict-value": [
       [
-        "/color/",
-        "font-family",
-        { ignoreValues: [
-            "auto",
-            "transparent",
-            "inherit",
-            "0"
-          ]
-        }
-      ]
-    ],
-    "order/properties-order": [],
-    "plugin/rational-order": [
-      true,
+        "/color$/",
+        "font-family"
+      ],
       {
-        "border-in-box-model": false,
-        "empty-line-between-groups": false,
+        "disableFix": true,
+        "ignoreValues": [
+          "0",
+          "auto",
+          "currentColor",
+          "inherit",
+          "transparent"
+        ]
       }
     ]
   }

@@ -1,10 +1,10 @@
-// stylelint-disable plugin/no-unsupported-browser-features, sh-waqar/declaration-use-variable
+// stylelint-disable plugin/no-unsupported-browser-features, scale-unlimited/declaration-strict-value
 
 @font-face {
   font-family: "cooper_hewittbold";
   font-style: normal;
   src: url("/fonts/cooper-hewitt/cooperhewitt-bold-webfont.woff2")
-      format("woff2"),
+    format("woff2"),
     url("/fonts/cooper-hewitt/cooperhewitt-bold-webfont.woff") format("woff");
 }
 
@@ -12,16 +12,16 @@
   font-family: "cooper_hewittbold_italic";
   font-style: normal;
   src: url("/fonts/cooper-hewitt/cooperhewitt-bolditalic-webfont.woff2")
-      format("woff2"),
+    format("woff2"),
     url("/fonts/cooper-hewitt/cooperhewitt-bolditalic-webfont.woff")
-      format("woff");
+    format("woff");
 }
 
 @font-face {
   font-family: "cooper_hewittbook";
   font-style: normal;
   src: url("/fonts/cooper-hewitt/cooperhewitt-book-webfont.woff2")
-      format("woff2"),
+    format("woff2"),
     url("/fonts/cooper-hewitt/cooperhewitt-book-webfont.woff") format("woff");
 }
 
@@ -29,16 +29,16 @@
   font-family: "cooper_hewittbook_italic";
   font-style: normal;
   src: url("/fonts/cooper-hewitt/cooperhewitt-bookitalic-webfont.woff2")
-      format("woff2"),
+    format("woff2"),
     url("/fonts/cooper-hewitt/cooperhewitt-bookitalic-webfont.woff")
-      format("woff");
+    format("woff");
 }
 
 @font-face {
   font-family: "cooper_hewittheavy";
   font-style: normal;
   src: url("/fonts/cooper-hewitt/cooperhewitt-heavy-webfont.woff2")
-      format("woff2"),
+    format("woff2"),
     url("/fonts/cooper-hewitt/cooperhewitt-heavy-webfont.woff") format("woff");
 }
 
@@ -46,16 +46,16 @@
   font-family: "cooper_hewittheavy_italic";
   font-style: normal;
   src: url("/fonts/cooper-hewitt/cooperhewitt-heavyitalic-webfont.woff2")
-      format("woff2"),
+    format("woff2"),
     url("/fonts/cooper-hewitt/cooperhewitt-heavyitalic-webfont.woff")
-      format("woff");
+    format("woff");
 }
 
 @font-face {
   font-family: "cooper_hewittlight";
   font-style: normal;
   src: url("/fonts/cooper-hewitt/cooperhewitt-light-webfont.woff2")
-      format("woff2"),
+    format("woff2"),
     url("/fonts/cooper-hewitt/cooperhewitt-light-webfont.woff") format("woff");
 }
 
@@ -63,16 +63,16 @@
   font-family: "cooper_hewittlight_italic";
   font-style: normal;
   src: url("/fonts/cooper-hewitt/cooperhewitt-lightitalic-webfont.woff2")
-      format("woff2"),
+    format("woff2"),
     url("/fonts/cooper-hewitt/cooperhewitt-lightitalic-webfont.woff")
-      format("woff");
+    format("woff");
 }
 
 @font-face {
   font-family: "cooper_hewittmedium";
   font-style: normal;
   src: url("/fonts/cooper-hewitt/cooperhewitt-medium-webfont.woff2")
-      format("woff2"),
+    format("woff2"),
     url("/fonts/cooper-hewitt/cooperhewitt-medium-webfont.woff") format("woff");
 }
 
@@ -80,27 +80,27 @@
   font-family: "cooper_hewittmedium_italic";
   font-style: normal;
   src: url("/fonts/cooper-hewitt/cooperhewitt-mediumitalic-webfont.woff2")
-      format("woff2"),
+    format("woff2"),
     url("/fonts/cooper-hewitt/cooperhewitt-mediumitalic-webfont.woff")
-      format("woff");
+    format("woff");
 }
 
 @font-face {
   font-family: "cooper_hewittsemibold";
   font-style: normal;
   src: url("/fonts/cooper-hewitt/cooperhewitt-semibold-webfont.woff2")
-      format("woff2"),
+    format("woff2"),
     url("/fonts/cooper-hewitt/cooperhewitt-semibold-webfont.woff")
-      format("woff");
+    format("woff");
 }
 
 @font-face {
   font-family: "cooper_hewittsemibold_italic";
   font-style: normal;
   src: url("/fonts/cooper-hewitt/cooperhewitt-semibolditalic-webfont.woff2")
-      format("woff2"),
+    format("woff2"),
     url("/fonts/cooper-hewitt/cooperhewitt-semibolditalic-webfont.woff")
-      format("woff");
+    format("woff");
 }
 
 // stylelint-enable

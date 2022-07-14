@@ -35,13 +35,18 @@ img {
   left: -999rem;
 
   &:active,
-  &:focus {
+  &:focus,
+  &:focus-within {
     left: 0;
     z-index: 100;
     display: block;
     width: 100%;
-    padding: 0.5rem 0.75rem;
+    margin: 0.35rem 0;
     text-align: center;
+  }
+
+  a {
+    padding: 0.5rem 0.75rem;
 
     @extend %hover;
   }
